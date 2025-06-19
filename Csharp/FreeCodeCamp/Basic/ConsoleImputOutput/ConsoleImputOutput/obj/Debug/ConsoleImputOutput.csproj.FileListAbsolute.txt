@@ -1,0 +1,7 @@
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\ConsoleImputOutput\ConsoleImputOutput\bin\Debug\ConsoleImputOutput.exe.config
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\ConsoleImputOutput\ConsoleImputOutput\bin\Debug\ConsoleImputOutput.exe
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\ConsoleImputOutput\ConsoleImputOutput\bin\Debug\ConsoleImputOutput.pdb
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\ConsoleImputOutput\ConsoleImputOutput\obj\Debug\ConsoleImputOutput.csproj.AssemblyReference.cache
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\ConsoleImputOutput\ConsoleImputOutput\obj\Debug\ConsoleImputOutput.csproj.CoreCompileInputs.cache
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\ConsoleImputOutput\ConsoleImputOutput\obj\Debug\ConsoleImputOutput.exe
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\ConsoleImputOutput\ConsoleImputOutput\obj\Debug\ConsoleImputOutput.pdb

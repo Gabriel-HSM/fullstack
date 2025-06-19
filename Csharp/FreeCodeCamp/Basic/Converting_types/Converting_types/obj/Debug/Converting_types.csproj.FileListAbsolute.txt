@@ -1,0 +1,7 @@
+D:\Users\GABRIEL HD\Desktop\Csharp\Converting_types\Converting_types\bin\Debug\Converting_types.exe.config
+D:\Users\GABRIEL HD\Desktop\Csharp\Converting_types\Converting_types\bin\Debug\Converting_types.exe
+D:\Users\GABRIEL HD\Desktop\Csharp\Converting_types\Converting_types\bin\Debug\Converting_types.pdb
+D:\Users\GABRIEL HD\Desktop\Csharp\Converting_types\Converting_types\obj\Debug\Converting_types.csproj.AssemblyReference.cache
+D:\Users\GABRIEL HD\Desktop\Csharp\Converting_types\Converting_types\obj\Debug\Converting_types.csproj.CoreCompileInputs.cache
+D:\Users\GABRIEL HD\Desktop\Csharp\Converting_types\Converting_types\obj\Debug\Converting_types.exe
+D:\Users\GABRIEL HD\Desktop\Csharp\Converting_types\Converting_types\obj\Debug\Converting_types.pdb

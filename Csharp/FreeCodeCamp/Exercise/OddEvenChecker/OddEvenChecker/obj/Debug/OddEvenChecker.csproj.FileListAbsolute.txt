@@ -1,0 +1,7 @@
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\OddEvenChecker\OddEvenChecker\bin\Debug\OddEvenChecker.exe.config
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\OddEvenChecker\OddEvenChecker\bin\Debug\OddEvenChecker.exe
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\OddEvenChecker\OddEvenChecker\bin\Debug\OddEvenChecker.pdb
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\OddEvenChecker\OddEvenChecker\obj\Debug\OddEvenChecker.csproj.AssemblyReference.cache
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\OddEvenChecker\OddEvenChecker\obj\Debug\OddEvenChecker.csproj.CoreCompileInputs.cache
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\OddEvenChecker\OddEvenChecker\obj\Debug\OddEvenChecker.exe
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\OddEvenChecker\OddEvenChecker\obj\Debug\OddEvenChecker.pdb

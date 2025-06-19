@@ -1,0 +1,7 @@
+D:\Users\GABRIEL HD\Desktop\Csharp\VarKeyword\VarKeyword\bin\Debug\VarKeyword.exe.config
+D:\Users\GABRIEL HD\Desktop\Csharp\VarKeyword\VarKeyword\bin\Debug\VarKeyword.exe
+D:\Users\GABRIEL HD\Desktop\Csharp\VarKeyword\VarKeyword\bin\Debug\VarKeyword.pdb
+D:\Users\GABRIEL HD\Desktop\Csharp\VarKeyword\VarKeyword\obj\Debug\VarKeyword.csproj.AssemblyReference.cache
+D:\Users\GABRIEL HD\Desktop\Csharp\VarKeyword\VarKeyword\obj\Debug\VarKeyword.csproj.CoreCompileInputs.cache
+D:\Users\GABRIEL HD\Desktop\Csharp\VarKeyword\VarKeyword\obj\Debug\VarKeyword.exe
+D:\Users\GABRIEL HD\Desktop\Csharp\VarKeyword\VarKeyword\obj\Debug\VarKeyword.pdb

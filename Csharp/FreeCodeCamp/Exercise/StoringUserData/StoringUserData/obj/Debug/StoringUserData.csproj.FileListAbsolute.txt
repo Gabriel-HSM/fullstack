@@ -1,0 +1,7 @@
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\StoringUserData\StoringUserData\bin\Debug\StoringUserData.exe.config
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\StoringUserData\StoringUserData\bin\Debug\StoringUserData.exe
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\StoringUserData\StoringUserData\bin\Debug\StoringUserData.pdb
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\StoringUserData\StoringUserData\obj\Debug\StoringUserData.csproj.AssemblyReference.cache
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\StoringUserData\StoringUserData\obj\Debug\StoringUserData.csproj.CoreCompileInputs.cache
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\StoringUserData\StoringUserData\obj\Debug\StoringUserData.exe
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\StoringUserData\StoringUserData\obj\Debug\StoringUserData.pdb

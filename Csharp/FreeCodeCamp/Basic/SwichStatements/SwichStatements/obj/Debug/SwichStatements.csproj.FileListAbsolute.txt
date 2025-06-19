@@ -1,0 +1,7 @@
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\SwichStatements\SwichStatements\bin\Debug\SwichStatements.exe.config
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\SwichStatements\SwichStatements\bin\Debug\SwichStatements.exe
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\SwichStatements\SwichStatements\bin\Debug\SwichStatements.pdb
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\SwichStatements\SwichStatements\obj\Debug\SwichStatements.csproj.AssemblyReference.cache
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\SwichStatements\SwichStatements\obj\Debug\SwichStatements.csproj.CoreCompileInputs.cache
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\SwichStatements\SwichStatements\obj\Debug\SwichStatements.exe
+D:\Users\GABRIEL HD\Desktop\Csharp\Exercise\SwichStatements\SwichStatements\obj\Debug\SwichStatements.pdb

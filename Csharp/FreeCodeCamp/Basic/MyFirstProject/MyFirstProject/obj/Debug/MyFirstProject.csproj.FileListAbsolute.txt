@@ -1,0 +1,7 @@
+D:\Users\GABRIEL HD\Desktop\Csharp\MyFirstProject\MyFirstProject\bin\Debug\MyFirstProject.exe.config
+D:\Users\GABRIEL HD\Desktop\Csharp\MyFirstProject\MyFirstProject\bin\Debug\MyFirstProject.exe
+D:\Users\GABRIEL HD\Desktop\Csharp\MyFirstProject\MyFirstProject\bin\Debug\MyFirstProject.pdb
+D:\Users\GABRIEL HD\Desktop\Csharp\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.csproj.AssemblyReference.cache
+D:\Users\GABRIEL HD\Desktop\Csharp\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.csproj.CoreCompileInputs.cache
+D:\Users\GABRIEL HD\Desktop\Csharp\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.exe
+D:\Users\GABRIEL HD\Desktop\Csharp\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.pdb

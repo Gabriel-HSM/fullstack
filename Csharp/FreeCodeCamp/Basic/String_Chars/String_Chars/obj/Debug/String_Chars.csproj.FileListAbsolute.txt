@@ -1,0 +1,7 @@
+D:\Users\GABRIEL HD\Desktop\Csharp\String_Chars\String_Chars\bin\Debug\String_Chars.exe.config
+D:\Users\GABRIEL HD\Desktop\Csharp\String_Chars\String_Chars\bin\Debug\String_Chars.exe
+D:\Users\GABRIEL HD\Desktop\Csharp\String_Chars\String_Chars\bin\Debug\String_Chars.pdb
+D:\Users\GABRIEL HD\Desktop\Csharp\String_Chars\String_Chars\obj\Debug\String_Chars.csproj.AssemblyReference.cache
+D:\Users\GABRIEL HD\Desktop\Csharp\String_Chars\String_Chars\obj\Debug\String_Chars.csproj.CoreCompileInputs.cache
+D:\Users\GABRIEL HD\Desktop\Csharp\String_Chars\String_Chars\obj\Debug\String_Chars.exe
+D:\Users\GABRIEL HD\Desktop\Csharp\String_Chars\String_Chars\obj\Debug\String_Chars.pdb

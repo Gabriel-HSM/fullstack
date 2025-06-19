@@ -1,0 +1,7 @@
+D:\Users\GABRIEL HD\Desktop\Csharp\Operators\Operators\bin\Debug\Operators.exe.config
+D:\Users\GABRIEL HD\Desktop\Csharp\Operators\Operators\bin\Debug\Operators.exe
+D:\Users\GABRIEL HD\Desktop\Csharp\Operators\Operators\bin\Debug\Operators.pdb
+D:\Users\GABRIEL HD\Desktop\Csharp\Operators\Operators\obj\Debug\Operators.csproj.AssemblyReference.cache
+D:\Users\GABRIEL HD\Desktop\Csharp\Operators\Operators\obj\Debug\Operators.csproj.CoreCompileInputs.cache
+D:\Users\GABRIEL HD\Desktop\Csharp\Operators\Operators\obj\Debug\Operators.exe
+D:\Users\GABRIEL HD\Desktop\Csharp\Operators\Operators\obj\Debug\Operators.pdb

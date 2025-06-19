@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\GABRIEL HD\\Desktop\\Csharp\\ConstKeyword\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C69E61AD-15DE-49CB-8925-78CA1352FA3A}|ConstKeyword\\ConstKeyword.csproj|d:\\users\\gabriel hd\\desktop\\csharp\\constkeyword\\constkeyword\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C69E61AD-15DE-49CB-8925-78CA1352FA3A}|ConstKeyword\\ConstKeyword.csproj|solutionrelative:constkeyword\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\GABRIEL HD\\Desktop\\Csharp\\ConstKeyword\\ConstKeyword\\Program.cs",
+              "RelativeDocumentMoniker": "ConstKeyword\\Program.cs",
+              "ToolTip": "D:\\Users\\GABRIEL HD\\Desktop\\Csharp\\ConstKeyword\\ConstKeyword\\Program.cs",
+              "RelativeToolTip": "ConstKeyword\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T10:01:33.231Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
