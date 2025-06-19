@@ -25,6 +25,6 @@ do{
         console.log("escreva um número com formato correto")
     }
 
-    promp++
+    opcao++
 
-}while(promp <= 3)
+}while(opcao <= 3)
