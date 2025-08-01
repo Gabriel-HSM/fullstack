@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax 1 - Text file</title>
+</head>
+<body>
+    <div id="text"></div>
+    <button id="button">Get Text file</button>
+    <script>
+        //EventListener ao clicar o botão puxa uma função chamado loadText (carregar texto)
+        document.getElementById('button').addEventListener('click', loadText);
+
+        function loadText(){
+            //criar o objeto XHR
+            var xhr = new XMLHttpRequest();
+
+            //Decidir qual função pra fazer as solicitação, o tipo de solicitação e para qual arquivo estamos solicitando
+
+            //OPEN - tipo, nome do arquivo, async
+            xhr.open('GET', 'sample.txt',true);
+
+            //Validação se está funcionando
+
+            xhr.onload = function(){
+                if(this.status == 200){
+                   document.getElementById("text").innerHTML = this.responseText
+
+                }
+                
+            }
+            //Envia Solicitação
+            xhr.send();
+
+        }
+    </script>
+</body>
+</html>
