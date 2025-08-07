@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using TestedeNamespace;
+
+Pessoa p = new Pessoa();
+
+p.Nome = "Gabriel";
+p.Idade = 26;
+p.Apresentar();

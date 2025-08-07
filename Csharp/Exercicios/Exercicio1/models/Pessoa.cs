@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Exercicio1.models
+namespace TestedeNamespace
 {
     public class Pessoa
     {
@@ -13,7 +13,6 @@ namespace Exercicio1.models
         public void Apresentar()
         {
             Console.WriteLine($"Olá meu nome é {Nome}, e tenho {Idade} anos");
-
 
         }
     }
