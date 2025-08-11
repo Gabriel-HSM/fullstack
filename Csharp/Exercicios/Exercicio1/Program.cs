@@ -1,7 +1,53 @@
 ﻿using TestedeNamespace;
 
-DateTime dataAtual = DateTime.Now.AddDays(5);
-System.Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
+
+
+
+
+
+
+// int inteiro = 5;
+// string a = inteiro.ToString();
+
+// Console.WriteLine(a);
+
+
+
+
+
+
+
+//cast - casting
+//int a = convert.ToInt32("5");
+//int a = int.Parse("5");
+
+//int a = convert.ToInt32("null");
+//int a = int.Parse("null");
+
+//Console.WriteLine(a);
+
+
+
+
+
+
+
+
+
+
+// int a = 10;
+// int b = 20;
+// int c = a + b;
+
+//c = c + 5; //30 + 5
+// c += 5;
+
+// Console.WriteLine(c);
+
+
+
+// DateTime dataAtual = DateTime.Now.AddDays(5);
+// System.Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 
 
 
