@@ -1,7 +1,63 @@
-﻿using TestedeNamespace;
+﻿using Exercicio1.models;
+using TestedeNamespace;
+
+
+Calculadora calc = new Calculadora();
+
+calc.RaizQuadrada(9);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// calc.Somar(10,30);
+// calc.Subtrair(10,50);
+// calc.Multiplicar(15, 45);
+// calc.Dividir(2, 2);
+
+// calc.Potencia(3, 3);
+
+// calc.Seno(30);
+// calc.Cosseno(30);
+// calc.Tangente(30);
+
+
+
+
+
+
+
+// int quantidadeEmEstoque = 10;
+// int quantidadeCompra = 4;
+// bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
+
+// Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+// Console.WriteLine($"Quantidade a ser comprada: {quantidadeCompra}");
+// Console.WriteLine($"Venda possível: {possivelVenda}");
+
+// if (possivelVenda)
+// {
+//     Console.WriteLine("Venda Realizada");
+// }
+// else
+// {
+//     Console.WriteLine("Desculpe, Não temos a quantidade desejada em estoque");
+// }
 
 
 
