@@ -8,24 +8,31 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Iel Sistema\\.nuget\\packages\\": {}
+    "C:\\Users\\Gabriel\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DesenvolvimentoP\\fullstack\\Csharp\\Exercicios\\Exercicio1\\Exercicio1.csproj",
+      "projectUniqueName": "D:\\Users\\GABRIEL HD\\Desktop\\Programação\\fullstack\\Csharp\\Exercicios\\Exercicio1\\Exercicio1.csproj",
       "projectName": "Exercicio1",
-      "projectPath": "C:\\DesenvolvimentoP\\fullstack\\Csharp\\Exercicios\\Exercicio1\\Exercicio1.csproj",
-      "packagesPath": "C:\\Users\\Iel Sistema\\.nuget\\packages\\",
-      "outputPath": "C:\\DesenvolvimentoP\\fullstack\\Csharp\\Exercicios\\Exercicio1\\obj\\",
+      "projectPath": "D:\\Users\\GABRIEL HD\\Desktop\\Programação\\fullstack\\Csharp\\Exercicios\\Exercicio1\\Exercicio1.csproj",
+      "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\GABRIEL HD\\Desktop\\Programação\\fullstack\\Csharp\\Exercicios\\Exercicio1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Iel Sistema\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

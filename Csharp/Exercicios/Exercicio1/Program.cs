@@ -2,9 +2,45 @@
 using TestedeNamespace;
 
 
-Calculadora calc = new Calculadora();
 
-calc.RaizQuadrada(9);
+
+int numero = 5;
+
+while (numero < 10)
+{
+    System.Console.WriteLine(numero);
+    numero++;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int numero = 5
+// for(int contador = 0; contador < 10; contador++)
+// {
+//     System.Console.WriteLine($"{contador} x {numero} = {contador * numero}");
+// }
+
+// Calculadora calc = new Calculadora();
+
+// calc.RaizQuadrada(9);
 
 
 
