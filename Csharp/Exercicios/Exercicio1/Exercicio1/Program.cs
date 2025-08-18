@@ -1,16 +1,33 @@
-﻿using Exercicio1.models;
-using TestedeNamespace;
+﻿using Exercicio1.Common.models;
 
+int[] inteirosArray = new int[3];
 
+inteirosArray[0] = 72;
+inteirosArray[1] = 64;
+inteirosArray[2] = 50;
 
-
-int numero = 5;
-
-while (numero < 10)
+System.Console.WriteLine("Percorrendo com for");
+for (int contador = 0; contador < inteirosArray.Length; contador++)
 {
-    System.Console.WriteLine(numero);
-    numero++;
+    System.Console.WriteLine($"Posição {contador} = {inteirosArray[contador]}");
 }
+
+System.Console.WriteLine("Percorrendo com foreach");
+foreach (int valor in inteirosArray)
+{
+    System.Console.WriteLine($"Valor = {valor}");
+}
+
+
+
+
+// int numero = 5;
+
+// while (numero < 10)
+// {
+//     System.Console.WriteLine(numero);
+//     numero++;
+// }
 
 
 
