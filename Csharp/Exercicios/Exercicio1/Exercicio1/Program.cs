@@ -1,22 +1,152 @@
-﻿using Exercicio1.Common.models;
+﻿ using Exercicio1.Common.models;
 
-int[] inteirosArray = new int[3];
 
-inteirosArray[0] = 72;
-inteirosArray[1] = 64;
-inteirosArray[2] = 50;
 
-System.Console.WriteLine("Percorrendo com for");
-for (int contador = 0; contador < inteirosArray.Length; contador++)
-{
-    System.Console.WriteLine($"Posição {contador} = {inteirosArray[contador]}");
-}
+// List<string> listaString = new List<string>();
 
-System.Console.WriteLine("Percorrendo com foreach");
-foreach (int valor in inteirosArray)
-{
-    System.Console.WriteLine($"Valor = {valor}");
-}
+// listaString.Add("SP");
+// listaString.Add("BA");
+// listaString.Add("MG");
+// listaString.Add("RJ");
+
+// System.Console.WriteLine($"Itens na minha lista {listaString.Count} - capacidade: {listaString.Capacity}");
+
+// listaString.Add("SC");
+
+// System.Console.WriteLine($"Itens na minha lista {listaString.Count} - capacidade: {listaString.Capacity}");
+
+// listaString.Remove("MG");
+
+// System.Console.WriteLine($"Itens na minha lista {listaString.Count} - capacidade: {listaString.Capacity}");
+
+
+
+
+
+
+
+// foreach (string item in listaString)
+// {
+//     System.Console.WriteLine(item);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int[] inteirosArray = new int[3];
+
+// inteirosArray[0] = 72;
+// inteirosArray[1] = 64;
+// inteirosArray[2] = 50;
+
+// System.Console.WriteLine("Percorrendo com for");
+// for (int contador = 0; contador < inteirosArray.Length; contador++)
+// {
+//     System.Console.WriteLine($"Posição {contador} = {inteirosArray[contador]}");
+// }
+
+
+
+
+
+
+
+
+// int[] arrayInteirosDobrado = new int[inteirosArray.Length * 2];
+// Array.Copy(inteirosArray, arrayInteirosDobrado, inteirosArray.Length);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Array.Resize(ref inteirosArray, inteirosArray.Length * 2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// System.Console.WriteLine("Percorrendo com foreach");
+// foreach (int valor in inteirosArray)
+// {
+//     System.Console.WriteLine($"Valor = {valor}");
+// }
 
 
 
