@@ -3,6 +3,132 @@ using System.Globalization;
 
 
 
+
+int numero = 15;
+bool ehPar = false;
+
+//IF Ternário
+ehPar = numero % 2 == 0;
+
+System.Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "impar"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+// if (numero % 2 == 0)
+// {
+//     System.Console.WriteLine($"O número {numero} é par");
+// }
+// else
+// {
+//     System.Console.WriteLine($"O número {numero} é ímpar");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa("Gabriel", "Henrique");
+
+// (string nome, string sobrenome) = p1;
+
+// System.Console.WriteLine($"{nome} {sobrenome}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// LeituraArquivo arquivo = new LeituraArquivo();
+
+// var (sucesso, linhasArquivo, _) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+
+// if (sucesso)
+// {
+//     //System.Console.WriteLine($"quantidades linha do arquivo: {quantidadeLinhas}");
+
+//     foreach (string linha in linhasArquivo)
+//     {
+//         System.Console.WriteLine(linha);
+//     }
+// }
+// else
+// {
+// System.Console.WriteLine("Não foi possível ler o arquivo");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// (int, string, string, decimal) tupla = (1, "Gabriel", "Henrique", 1.80M);
+// //ValueTuple<int, string, string, decimal> outroExemplo = (1, "Gabriel", "Henrique", 1.80M);
+
+// //var outroExemplo = Tuple.Create(1, "Gabriel", "Henrique", 1.80M);
+
+// System.Console.WriteLine($" ID: {tupla.Item1}");
+// System.Console.WriteLine($" Nome: {tupla.Item2}");
+// System.Console.WriteLine($" Sobrenome: {tupla.Item3}");
+// System.Console.WriteLine($" Altura: {tupla.Item4}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Dictionary<string, string> estados = new Dictionary<string, string>();
 
 // estados.Add("SP", "São Paulo");
