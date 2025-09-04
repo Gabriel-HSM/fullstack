@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\PrimeiroProjeto\\PrimeiroProjeto.csproj": {}
+    "c:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\Course\\Course.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\PrimeiroProjeto\\PrimeiroProjeto.csproj": {
+    "c:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\Course\\Course.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\PrimeiroProjeto\\PrimeiroProjeto.csproj",
-        "projectName": "PrimeiroProjeto",
-        "projectPath": "C:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\PrimeiroProjeto\\PrimeiroProjeto.csproj",
+        "projectUniqueName": "c:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\Course\\Course.csproj",
+        "projectName": "Course",
+        "projectPath": "c:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\Course\\Course.csproj",
         "packagesPath": "C:\\Users\\Iel Sistema\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\PrimeiroProjeto\\obj\\",
+        "outputPath": "c:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\Course\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Iel Sistema\\AppData\\Roaming\\NuGet\\NuGet.Config"
