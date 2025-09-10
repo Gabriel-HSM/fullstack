@@ -2,23 +2,92 @@
 using System.IO.Pipes;
 using System.Text.RegularExpressions;
 
-int n1 = 3 + 4 * 2;
-int n2 = (3 + 4) * 2;
-int n3 = 17 % 3;
-double n4 = 10.0 / 8.0;
 
-double a = 1.0, b = -3.0, c = -4.0;
+//--------------------------    Exercicio   -----------------------------
 
-double delta = Math.Pow(b, 2.0) - 4 * a * c;
 
-double x1 = (-b + Math.Sqrt(delta)) / (2.0 * a);
+// Console.WriteLine("Entre com seu nome completo:");
+// string nome = Console.ReadLine();
+// Console.WriteLine("Quantos quartos tem na sua casa?");
+// int quantidadeQuartos = int.Parse(Console.ReadLine());
+// Console.WriteLine("Entre com o preço de um produto:");
+// double valorProduto = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+// Console.WriteLine("Entre seu último nome, idade e altura (mesma linha):");
 
-Console.WriteLine(n1);
-Console.WriteLine(n2);
-Console.WriteLine(n3);
-Console.WriteLine(n4);
-Console.WriteLine(delta);
-Console.WriteLine(x1);
+// string[] array = Console.ReadLine().Split(' ');
+// string arrayNome = array[0];
+// string arrayIdade = array[1];
+// string arrayAltura = array[2];
+
+// Console.WriteLine(nome);
+// Console.WriteLine(quantidadeQuartos);
+// Console.WriteLine(valorProduto);
+// Console.WriteLine(arrayNome);
+// Console.WriteLine(arrayIdade);
+// Console.WriteLine(arrayAltura);
+
+
+//-----------------------------------------------------------------------
+
+
+// int n1 = int.Parse(Console.ReadLine());
+// char ch = char.Parse(Console.ReadLine());
+// double n2 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+// string[] vet = Console.ReadLine().Split(' ');
+// string nome = vet[0];
+// char sexo = char.Parse(vet[1]);
+// int idade = int.Parse(vet[2]);
+// double altura = double.Parse(vet[3], CultureInfo.InvariantCulture);
+
+// Console.WriteLine("Você digitou:");
+// Console.WriteLine(n1);
+// Console.WriteLine(ch);
+// Console.WriteLine(n2.ToString(CultureInfo.InvariantCulture));
+// Console.WriteLine(nome);
+// Console.WriteLine(sexo);
+// Console.WriteLine(idade);
+// Console.WriteLine(altura.ToString(CultureInfo.InvariantCulture));
+
+// string frase = Console.ReadLine();
+// string x = Console.ReadLine();
+// string y = Console.ReadLine();
+// string z = Console.ReadLine();
+// // string s = Console.ReadLine();
+
+// string[] v = Console.ReadLine().Split(' ');
+// string a = v[0];
+// string b = v[1];
+// string c = v[2];
+
+// Console.WriteLine("Você digitou: ");
+// Console.WriteLine(frase);
+// Console.WriteLine(x);
+// Console.WriteLine(y);
+// Console.WriteLine(z);
+// Console.WriteLine(a);
+// Console.WriteLine(b);
+// Console.WriteLine(c);
+
+// int n1 = 3 + 4 * 2;
+// int n2 = (3 + 4) * 2;
+// int n3 = 17 % 3;
+// double n4 = 10.0 / 8.0;
+
+// double a = 1.0, b = -3.0, c = -4.0;
+
+// double delta = Math.Pow(b, 2.0) - 4 * a * c;
+
+// double x1 = (-b + Math.Sqrt(delta)) / (2.0 * a);
+// double x2 = (-b - Math.Sqrt(delta)) / (2.0 * a);
+
+// Console.WriteLine(n1);
+// Console.WriteLine(n2);
+// Console.WriteLine(n3);
+// Console.WriteLine(n4);
+// Console.WriteLine(delta);
+// Console.WriteLine(x1);
+// Console.WriteLine(x2);
 
 // int a = 5;
 // int b = 2;

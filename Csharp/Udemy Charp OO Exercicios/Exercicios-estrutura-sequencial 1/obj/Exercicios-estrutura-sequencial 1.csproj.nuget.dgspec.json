@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\Course\\Course.csproj": {}
+    "C:\\Projetos\\fullstack\\Csharp\\Udemy Charp OO Exercicios\\Exercicios-estrutura-sequencial 1\\Exercicios-estrutura-sequencial 1.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\Course\\Course.csproj": {
+    "C:\\Projetos\\fullstack\\Csharp\\Udemy Charp OO Exercicios\\Exercicios-estrutura-sequencial 1\\Exercicios-estrutura-sequencial 1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\Course\\Course.csproj",
-        "projectName": "Course",
-        "projectPath": "C:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\Course\\Course.csproj",
+        "projectUniqueName": "C:\\Projetos\\fullstack\\Csharp\\Udemy Charp OO Exercicios\\Exercicios-estrutura-sequencial 1\\Exercicios-estrutura-sequencial 1.csproj",
+        "projectName": "Exercicios-estrutura-sequencial 1",
+        "projectPath": "C:\\Projetos\\fullstack\\Csharp\\Udemy Charp OO Exercicios\\Exercicios-estrutura-sequencial 1\\Exercicios-estrutura-sequencial 1.csproj",
         "packagesPath": "C:\\Users\\Iel Sistema\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\Course\\obj\\",
+        "outputPath": "C:\\Projetos\\fullstack\\Csharp\\Udemy Charp OO Exercicios\\Exercicios-estrutura-sequencial 1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Iel Sistema\\AppData\\Roaming\\NuGet\\NuGet.Config"
