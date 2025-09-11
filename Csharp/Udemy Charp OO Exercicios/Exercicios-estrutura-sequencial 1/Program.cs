@@ -104,7 +104,7 @@
 // Console.WriteLine("TRIÂNGULO: " + ((A * C) / 2 ).ToString("F3"));
 // Console.WriteLine("CIRCULO: " + (Math.Pow(C,2) * pi).ToString("F3"));
 // Console.WriteLine("TRAPEZIO: " + ((A + B) * (C / 2)).ToString("F3"));
-// Console.WriteLine("QUADRADO: " + (B * 4).ToString("F3"));
+// Console.WriteLine("QUADRADO: " + (B * B).ToString("F3"));
 // Console.WriteLine("RETANGULO: " + (A * B).ToString("F3"));
 
 

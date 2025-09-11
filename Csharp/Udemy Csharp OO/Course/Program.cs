@@ -2,6 +2,100 @@
 using System.IO.Pipes;
 using System.Text.RegularExpressions;
 
+// double preco = double.Parse(Console.ReadLine());
+// double desconto = 0.0;
+
+// if (preco > 100.0)
+// {
+//     desconto = preco * 0.1;
+// }
+
+// Console.WriteLine(desconto);
+
+// Console.WriteLine("Qual a hora atual?");
+// int hora = int.Parse(Console.ReadLine());
+
+// if (hora < 12)
+// {
+//     Console.WriteLine("Bom dia!");
+// }
+// else if (hora < 18)
+// {
+//     Console.WriteLine("Boa tarde");
+// }
+// else
+// {
+//     Console.WriteLine("Boa noite");
+// }
+
+// Console.WriteLine("Qual a hora atual?");
+// int hora = int.Parse(Console.ReadLine());
+
+// if (hora < 12)
+// {
+//     Console.WriteLine("Bom dia!");
+// }
+
+// if (hora >= 12 && hora < 18)
+// {
+//     Console.WriteLine("Boa tarde");
+// }
+
+// if (hora >= 18)
+// {
+//     Console.WriteLine("Boa noite");
+// }
+
+// Console.WriteLine("Entre com um número inteiro: ");
+// int x = int.Parse(Console.ReadLine());
+
+// if (x % 2 == 0)
+// {
+//     Console.WriteLine("Par!");
+// }
+// else
+// {
+//     Console.WriteLine("Impar!");
+// }
+
+// bool c1 = 2 > 3 && 4 != 5;
+// bool c2 = 2 > 3 || 4 != 5;
+// bool c3 = !(2 > 3) && 4 != 5;
+
+// Console.WriteLine(c1);
+// Console.WriteLine(c2);
+// Console.WriteLine(c3);
+// Console.WriteLine("-------------------");
+
+// bool c4 = 10 < 5;
+
+// bool c5 = c2 || c3 && c4;
+
+// Console.WriteLine(c4);
+// Console.WriteLine(c5);
+
+// int a = 10;
+// bool c1 = a < 10;
+// bool c2 = a < 20;
+// bool c3 = a > 10;
+// bool c4 = a > 5;
+
+// Console.WriteLine(c1);
+// Console.WriteLine(c2);
+// Console.WriteLine(c3);
+// Console.WriteLine(c4);
+// Console.WriteLine("-------------------------------");
+
+// bool c5 = a <= 10;
+// bool c6 = a >= 10;
+// bool c7 = a == 10;
+// bool c8 = a != 10;
+
+// Console.WriteLine(c5);
+// Console.WriteLine(c6);
+// Console.WriteLine(c7);
+// Console.WriteLine(c8);
+
 
 //--------------------------    Exercicio   -----------------------------
 
