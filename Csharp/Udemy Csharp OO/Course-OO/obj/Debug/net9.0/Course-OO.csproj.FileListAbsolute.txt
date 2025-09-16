@@ -1,0 +1,15 @@
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-OO\bin\Debug\net9.0\Course-OO.exe
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-OO\bin\Debug\net9.0\Course-OO.deps.json
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-OO\bin\Debug\net9.0\Course-OO.runtimeconfig.json
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-OO\bin\Debug\net9.0\Course-OO.dll
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-OO\bin\Debug\net9.0\Course-OO.pdb
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-OO\obj\Debug\net9.0\Course-OO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-OO\obj\Debug\net9.0\Course-OO.AssemblyInfoInputs.cache
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-OO\obj\Debug\net9.0\Course-OO.AssemblyInfo.cs
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-OO\obj\Debug\net9.0\Course-OO.csproj.CoreCompileInputs.cache
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-OO\obj\Debug\net9.0\Course-OO.sourcelink.json
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-OO\obj\Debug\net9.0\Course-OO.dll
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-OO\obj\Debug\net9.0\refint\Course-OO.dll
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-OO\obj\Debug\net9.0\Course-OO.pdb
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-OO\obj\Debug\net9.0\Course-OO.genruntimeconfig.cache
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-OO\obj\Debug\net9.0\ref\Course-OO.dll

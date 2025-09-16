@@ -18,7 +18,6 @@
 
 
 //--------------------------------------------------------------------
-
 //----------------------- Exercicio 2 --------------------------------
 
 
@@ -46,7 +45,6 @@
 
 
 //--------------------------------------------------------------------
-
 //----------------------- Exercicio 3 --------------------------------
 
 // Console.Write("Digite a quantidade de casos: ");
@@ -96,30 +94,58 @@
 //----------------------- Exercicio 5 --------------------------------
 
 
-Console.Write("Digite o número que deseja descobrir seu fatorial: ");
-int numero = int.Parse(Console.ReadLine());
-int resultado = 0;
+// Console.Write("Digite o número que deseja descobrir seu fatorial: ");
+// int entradaFatorial = int.Parse(Console.ReadLine());
+// int fatorial = 1;
 
-if (numero == 0)
-{
-    Console.WriteLine('1');
-}
-else if (numero == 1)
-{
-    Console.WriteLine('1');
-}
-else
-{
-    for (int contador = 1; contador < numero; contador++)
-    {
-        resultado += numero * (numero - contador);
-    }
-        Console.WriteLine(resultado);
-}
+// for (int cont = 1; cont <= entradaFatorial; cont++)
+// {
+//     fatorial = fatorial * cont;
+// }
 
+// Console.WriteLine(fatorial);
 
 
 //--------------------------------------------------------------------
-//----------------------- Exercicio 3 --------------------------------
+//----------------------- Exercicio 6 --------------------------------
+
+
+// Console.Write("DIgite o número que deseja descobrir seus divisores: ");
+// int entradaDivisor = int.Parse(Console.ReadLine());
+
+// for (int contador = 1; contador <= entradaDivisor; contador++)
+// {
+//     if (entradaDivisor % contador == 0)
+//     {
+//         Console.WriteLine(contador);
+//     }
+// }
+
+
+//--------------------------------------------------------------------
+//----------------------- Exercicio 7 --------------------------------
+
+
+// Console.Write("Digite o número de linhas: ");
+// int numeroLinhas = int.Parse(Console.ReadLine());
+
+// for (int c = 1; c <= numeroLinhas; c++)
+// {
+//     Console.WriteLine($"{c} {Math.Pow(c, 2)} {Math.Pow(c, 3)}");
+
+// }
+
+// Console.Write("Digite o número de linhas: ");
+// int numeroLinhas = int.Parse(Console.ReadLine());
+
+// for (int c = 1; c <= numeroLinhas; c++)
+// {
+//     int primeiro = c;
+//     int segundo = c * c;
+//     int terceiro = c * c * c;
+//     Console.WriteLine($"{primeiro} {segundo} {terceiro}");
+    
+// }
+
 
 //--------------------------------------------------------------------
