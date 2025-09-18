@@ -48,4 +48,21 @@ using Exercicio_2_metodos_e_oo;
 //-----------------------------------------------------------------------
 //---------------------------- EXERCICIO 3 ------------------------------
 
+Aluno aluno = new Aluno();
+
+Console.Write("Nome do aluno: ");
+aluno.Nome = Console.ReadLine();
+Console.WriteLine("Digite as três notas do aluno:");
+aluno.Nota1 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+aluno.Nota2 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+aluno.Nota3 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+Console.WriteLine("NOTA FINAL = " + aluno.calcularNota().ToString("F2", CultureInfo.InvariantCulture));
+
+if (aluno.Aprovado())
+{
+    Console.WriteLine("APROVADO");
+    Console.WriteLine("FALTARAM " + (60.0 - aluno.calcularNota()).ToString("F2", CultureInfo.InvariantCulture) + "PONTOS");
+}
+
 //-----------------------------------------------------------------------
