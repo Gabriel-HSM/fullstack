@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Exercicio-Construtores-Propriedades-Sobrecarga")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2638e2fd45e46cd4875003e41efcf415acf19743")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e09112fa4361b520a2ce5058dce3d91acd49bafb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Exercicio-Construtores-Propriedades-Sobrecarga")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Exercicio-Construtores-Propriedades-Sobrecarga")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
