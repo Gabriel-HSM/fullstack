@@ -1,6 +1,93 @@
 ﻿using System.Globalization;
 using Course_OO;
 
+
+// Produto p = new Produto("TV", 500.00, 10);
+// p.Nome = "T";
+
+// Console.WriteLine(p.Nome);
+// Console.WriteLine(p.Preco);
+
+// Console.WriteLine("Entre os dados do produto:");
+// Console.Write("Nome: ");
+// string nome = Console.ReadLine();
+// Console.Write("Preço: ");
+// double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+// // Console.Write("Quantidade em estoque: ");
+// // int quantidade = int.Parse(Console.ReadLine());
+
+// Produto p = new Produto(nome, preco);
+// // Produto p1 = new Produto();
+// Produto p3 = new Produto() {
+//     Nome = "TV",
+//     Preco = 500.00,
+//     Quantidade = 20 };
+
+// Console.WriteLine();
+// Console.WriteLine("Dados do produto: " + p);
+
+// Console.WriteLine();
+// Console.Write("Digite o número de produtos a ser adiconado ao estoque: ");
+// int qte = int.Parse(Console.ReadLine());
+// p.AdicionarProduto(qte);
+// Console.WriteLine("Dados atualizados: " + p);
+
+// Console.WriteLine();
+// Console.Write("Digite o número de produtos a ser removido ao estoque: ");
+// qte = int.Parse(Console.ReadLine());
+// p.RemoverProduto(qte);
+// Console.WriteLine("Dados atualizados: " + p);
+
+
+//------------------------ USANDO BIBLIOTECA ------------------------
+
+
+// Console.WriteLine("Entre o valor do raio: ");
+// double raio = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+// double circ = Calculadora.Circunferencia(raio);
+// double volume = Calculadora.Volume(raio);
+
+// Console.WriteLine("Circunferência: " + circ.ToString("F2", CultureInfo.InvariantCulture));
+// Console.WriteLine("Volume: " + volume.ToString("F2", CultureInfo.InvariantCulture));
+// Console.WriteLine("Valor de PI: " + Calculadora.Pi.ToString("F2", CultureInfo.InvariantCulture));
+
+
+//------------------------ MÉTODOS NA PROPRIA CLASSE ------------------------
+
+
+// namespace Course {
+//     class Program
+//     {
+
+//         static double Pi = 3.14;
+//         static void Main(string[] args)
+//         {
+//             Console.WriteLine("Entre o valor do raio: ");
+//             double raio = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+//             double circ = Circunferencia(raio);
+//             double volume = Volume(raio);
+
+//             Console.WriteLine("Circunferência: " + circ.ToString("F2", CultureInfo.InvariantCulture));
+//             Console.WriteLine("Volume: " + volume.ToString("F2", CultureInfo.InvariantCulture));
+//             Console.WriteLine("Valor de PI: " + Pi.ToString("F2", CultureInfo.InvariantCulture));
+
+//         }
+
+//         static double Circunferencia(double r)
+//         {
+//             return 2.0 * Pi * r;
+//         }
+
+//         static double Volume(double r)
+//         {
+//             return 4.0 / 3.0 * Pi * Math.Pow(r, 3.0);
+//         }
+//     }
+// }
+
+
 // ------------------------ COM POO E COMPLETO --------------------------
 
 
