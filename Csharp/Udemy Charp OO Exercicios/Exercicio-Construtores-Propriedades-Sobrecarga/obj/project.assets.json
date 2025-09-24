@@ -8,24 +8,25 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Iel Sistema\\.nuget\\packages\\": {}
+    "/home/gabriel/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\fullstack\\Csharp\\Udemy Charp OO Exercicios\\Exercicio-Construtores-Propriedades-Sobrecarga\\Exercicio-Construtores-Propriedades-Sobrecarga.csproj",
+      "projectUniqueName": "/home/gabriel/Projects/fullstack/Csharp/Udemy Charp OO Exercicios/Exercicio-Construtores-Propriedades-Sobrecarga/Exercicio-Construtores-Propriedades-Sobrecarga.csproj",
       "projectName": "Exercicio-Construtores-Propriedades-Sobrecarga",
-      "projectPath": "C:\\Projetos\\fullstack\\Csharp\\Udemy Charp OO Exercicios\\Exercicio-Construtores-Propriedades-Sobrecarga\\Exercicio-Construtores-Propriedades-Sobrecarga.csproj",
-      "packagesPath": "C:\\Users\\Iel Sistema\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\fullstack\\Csharp\\Udemy Charp OO Exercicios\\Exercicio-Construtores-Propriedades-Sobrecarga\\obj\\",
+      "projectPath": "/home/gabriel/Projects/fullstack/Csharp/Udemy Charp OO Exercicios/Exercicio-Construtores-Propriedades-Sobrecarga/Exercicio-Construtores-Propriedades-Sobrecarga.csproj",
+      "packagesPath": "/home/gabriel/.nuget/packages/",
+      "outputPath": "/home/gabriel/Projects/fullstack/Csharp/Udemy Charp OO Exercicios/Exercicio-Construtores-Propriedades-Sobrecarga/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Iel Sistema\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/gabriel/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -44,7 +45,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -65,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
