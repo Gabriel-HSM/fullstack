@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Exercicio-Construtores-Propriedades-Sobrecarga/1.0.0": {
+        "runtime": {
+          "Exercicio-Construtores-Propriedades-Sobrecarga.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Exercicio-Construtores-Propriedades-Sobrecarga/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
