@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Correção-Exercicio-Costrutores-Propriedades/1.0.0": {
+        "runtime": {
+          "Correção-Exercicio-Costrutores-Propriedades.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Correção-Exercicio-Costrutores-Propriedades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

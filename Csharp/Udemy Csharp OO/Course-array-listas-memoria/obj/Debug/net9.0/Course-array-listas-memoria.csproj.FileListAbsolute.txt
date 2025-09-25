@@ -1,0 +1,15 @@
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-array-listas-memoria\bin\Debug\net9.0\Course-array-listas-memoria.exe
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-array-listas-memoria\bin\Debug\net9.0\Course-array-listas-memoria.deps.json
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-array-listas-memoria\bin\Debug\net9.0\Course-array-listas-memoria.runtimeconfig.json
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-array-listas-memoria\bin\Debug\net9.0\Course-array-listas-memoria.dll
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-array-listas-memoria\bin\Debug\net9.0\Course-array-listas-memoria.pdb
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-array-listas-memoria\obj\Debug\net9.0\Course-array-listas-memoria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-array-listas-memoria\obj\Debug\net9.0\Course-array-listas-memoria.AssemblyInfoInputs.cache
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-array-listas-memoria\obj\Debug\net9.0\Course-array-listas-memoria.AssemblyInfo.cs
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-array-listas-memoria\obj\Debug\net9.0\Course-array-listas-memoria.csproj.CoreCompileInputs.cache
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-array-listas-memoria\obj\Debug\net9.0\Course-array-listas-memoria.sourcelink.json
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-array-listas-memoria\obj\Debug\net9.0\Course-array-listas-memoria.dll
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-array-listas-memoria\obj\Debug\net9.0\refint\Course-array-listas-memoria.dll
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-array-listas-memoria\obj\Debug\net9.0\Course-array-listas-memoria.pdb
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-array-listas-memoria\obj\Debug\net9.0\Course-array-listas-memoria.genruntimeconfig.cache
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-array-listas-memoria\obj\Debug\net9.0\ref\Course-array-listas-memoria.dll
