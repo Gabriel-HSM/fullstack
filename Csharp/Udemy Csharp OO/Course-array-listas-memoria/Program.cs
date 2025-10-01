@@ -6,54 +6,65 @@ using Course_array_listas_memoria;
 using System.Collections.Generic;
 
 
-List<string> list = new List<string>();
+// double[,] mat = new double[2, 3];
 
-list.Add("Maria");
-list.Add("Alex");
-list.Add("Bob");
-list.Add("Anna");
-list.Insert(2, "Marco");
+// Console.WriteLine(mat.Length);
 
-foreach (string obj in list)
-{
-    Console.WriteLine(obj);
-}
+// Console.WriteLine(mat.Rank);
 
-Console.WriteLine("List Count: " + list.Count);
+// Console.WriteLine(mat.GetLength(0));
 
-string s1 = list.Find(x => x[0] == 'A');
-Console.WriteLine("FIrst 'A': " + s1);
-
-string s2 = list.FindLast(x => x[0] == 'A');
-Console.WriteLine("Last 'A': " + s2);
-
-int pos1 = list.FindIndex(x => x[0] == 'A');
-Console.WriteLine("First position 'A': " + pos1);
-
-int pos2 = list.FindLastIndex(x => x[0] == 'A');
-Console.WriteLine("Last position 'A': " + pos2);
+// Console.WriteLine(mat.GetLength(1));
 
 
-List<string> list2 = list.FindAll(x => x.Length == 5);
-Console.WriteLine("------------------------------");
-foreach (string obj in list2)
-{
-    Console.WriteLine(obj);
-}
+// List<string> list = new List<string>();
 
-list.Remove("Alexx");
-Console.WriteLine("------------------------------");
-foreach (string obj in list)
-{
-    Console.WriteLine(obj);
-}
+// list.Add("Maria");
+// list.Add("Alex");
+// list.Add("Bob");
+// list.Add("Anna");
+// list.Insert(2, "Marco");
 
-list.RemoveAll(x => x[0] == 'M');
-Console.WriteLine("------------------------------");
-foreach (string obj in list)
-{
-    Console.WriteLine(obj);
-}
+// foreach (string obj in list)
+// {
+//     Console.WriteLine(obj);
+// }
+
+// Console.WriteLine("List Count: " + list.Count);
+
+// string s1 = list.Find(x => x[0] == 'A');
+// Console.WriteLine("FIrst 'A': " + s1);
+
+// string s2 = list.FindLast(x => x[0] == 'A');
+// Console.WriteLine("Last 'A': " + s2);
+
+// int pos1 = list.FindIndex(x => x[0] == 'A');
+// Console.WriteLine("First position 'A': " + pos1);
+
+// int pos2 = list.FindLastIndex(x => x[0] == 'A');
+// Console.WriteLine("Last position 'A': " + pos2);
+
+
+// List<string> list2 = list.FindAll(x => x.Length == 5);
+// Console.WriteLine("------------------------------");
+// foreach (string obj in list2)
+// {
+//     Console.WriteLine(obj);
+// }
+
+// list.Remove("Alex");
+// Console.WriteLine("------------------------------");
+// foreach (string obj in list)
+// {
+//     Console.WriteLine(obj);
+// }
+
+// list.RemoveAll(x => x[0] == 'M');
+// Console.WriteLine("------------------------------");
+// foreach (string obj in list)
+// {
+//     Console.WriteLine(obj);
+// }
 
 
 // Console.WriteLine("First 'A': " + s1);

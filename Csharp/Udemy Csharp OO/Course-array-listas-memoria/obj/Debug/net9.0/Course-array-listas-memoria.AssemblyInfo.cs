@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Course-array-listas-memoria")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+079aaa2561b6b040702dcc50deb5df749d94a6dc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed4326ad92042d3df855c28504dbd7ee5893c1be")]
 [assembly: System.Reflection.AssemblyProductAttribute("Course-array-listas-memoria")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Course-array-listas-memoria")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
