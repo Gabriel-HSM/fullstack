@@ -1,0 +1,11 @@
+﻿using CourseOOIntermediare.Entities;
+using CourseOOIntermediare.Entities.Enums;
+
+Order order = new Order
+{
+    Id = 1080,
+    Moment = DateTime.Now,
+    Status = OrderStatus.PendingPayment
+};
+
+Console.WriteLine(order);

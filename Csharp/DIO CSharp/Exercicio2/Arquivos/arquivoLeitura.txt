@@ -1,2 +1,0 @@
-LInha 1 do arquivo de Leitura
-LInha 2 do arquivo de Leitura - conteúdo tal e tal

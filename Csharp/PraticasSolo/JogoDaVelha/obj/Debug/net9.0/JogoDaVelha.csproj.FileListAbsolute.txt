@@ -1,0 +1,15 @@
+C:\Projetos\fullstack\Csharp\PraticasSolo\JogoDaVelha\bin\Debug\net9.0\JogoDaVelha.exe
+C:\Projetos\fullstack\Csharp\PraticasSolo\JogoDaVelha\bin\Debug\net9.0\JogoDaVelha.deps.json
+C:\Projetos\fullstack\Csharp\PraticasSolo\JogoDaVelha\bin\Debug\net9.0\JogoDaVelha.runtimeconfig.json
+C:\Projetos\fullstack\Csharp\PraticasSolo\JogoDaVelha\bin\Debug\net9.0\JogoDaVelha.dll
+C:\Projetos\fullstack\Csharp\PraticasSolo\JogoDaVelha\bin\Debug\net9.0\JogoDaVelha.pdb
+C:\Projetos\fullstack\Csharp\PraticasSolo\JogoDaVelha\obj\Debug\net9.0\JogoDaVelha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\fullstack\Csharp\PraticasSolo\JogoDaVelha\obj\Debug\net9.0\JogoDaVelha.AssemblyInfoInputs.cache
+C:\Projetos\fullstack\Csharp\PraticasSolo\JogoDaVelha\obj\Debug\net9.0\JogoDaVelha.AssemblyInfo.cs
+C:\Projetos\fullstack\Csharp\PraticasSolo\JogoDaVelha\obj\Debug\net9.0\JogoDaVelha.csproj.CoreCompileInputs.cache
+C:\Projetos\fullstack\Csharp\PraticasSolo\JogoDaVelha\obj\Debug\net9.0\JogoDaVelha.sourcelink.json
+C:\Projetos\fullstack\Csharp\PraticasSolo\JogoDaVelha\obj\Debug\net9.0\JogoDaVelha.dll
+C:\Projetos\fullstack\Csharp\PraticasSolo\JogoDaVelha\obj\Debug\net9.0\refint\JogoDaVelha.dll
+C:\Projetos\fullstack\Csharp\PraticasSolo\JogoDaVelha\obj\Debug\net9.0\JogoDaVelha.pdb
+C:\Projetos\fullstack\Csharp\PraticasSolo\JogoDaVelha\obj\Debug\net9.0\JogoDaVelha.genruntimeconfig.cache
+C:\Projetos\fullstack\Csharp\PraticasSolo\JogoDaVelha\obj\Debug\net9.0\ref\JogoDaVelha.dll

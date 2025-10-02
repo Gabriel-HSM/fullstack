@@ -1,5 +1,219 @@
 ﻿using System.Globalization;
+using System.Runtime.Intrinsics.Arm;
 using Course_OO;
+
+// DateTime d1 = new DateTime(2000, 8, 15, 13, 5, 58, DateTimeKind.Local);
+
+// DateTime d2 = new DateTime(2000, 8, 15, 13, 5, 58, DateTimeKind.Utc);
+
+// DateTime d3 = new DateTime(2000, 8, 15, 13, 5, 58);
+
+// Console.WriteLine("d1: " + d1);
+// Console.WriteLine("d1 Kind: " + d1.Kind);
+// Console.WriteLine("d1 to Local " + d1.ToLocalTime());
+// Console.WriteLine("d1 to Utc " + d1.ToUniversalTime());
+
+
+// TimeSpan t = new TimeSpan(2, 3, 5, 7, 11);
+
+// Console.WriteLine(t);
+
+// Console.WriteLine("Days: " + t.Days);
+
+// TimeSpan t1 = TimeSpan.MaxValue;
+// TimeSpan t2 = TimeSpan.MinValue;
+// TimeSpan t3 = TimeSpan.Zero;
+
+// Console.WriteLine(t1);
+// Console.WriteLine(t2);
+// Console.WriteLine(t3);
+
+// DateTime d = new DateTime(2025, 10, 02, 12, 00, 53);
+
+// DateTime d2 = d.AddHours(2);
+// DateTime d3 = d.AddMinutes(3);
+
+// Console.WriteLine(d);
+// Console.WriteLine(d2);
+// Console.WriteLine(d3);
+
+
+// DateTime d = new DateTime(2025, 10, 02, 12, 00, 53 );
+
+// string s1 = d.ToLongDateString();
+// string s2 = d.ToLongTimeString();
+// string s3 = d.ToShortDateString();
+// string s4 = d.ToShortTimeString();
+
+// string s5 = d.ToString();
+
+// string s6 = d.ToString("yyyy-MM-dd HH:mm:ss");
+// string s7 = d.ToString("yyyy-MM-dd HH:mm:ss.fff");
+
+// Console.WriteLine(s1);
+// Console.WriteLine(s2);
+// Console.WriteLine(s3);
+// Console.WriteLine(s4);
+// Console.WriteLine(s5);
+// Console.WriteLine(s6);
+// Console.WriteLine(s7);
+
+// TimeSpan t1 = TimeSpan.FromDays(1.5);
+// TimeSpan t2 = TimeSpan.FromHours(1.5);
+// TimeSpan t3 = TimeSpan.FromMinutes(1.5);
+// TimeSpan t4 = TimeSpan.FromSeconds(1.5);
+// TimeSpan t5 = TimeSpan.FromMilliseconds(1.5);
+// TimeSpan t6 = TimeSpan.FromTicks(900000000L);
+
+// Console.WriteLine(t1);
+// Console.WriteLine(t2);
+// Console.WriteLine(t3);
+// Console.WriteLine(t4);
+// Console.WriteLine(t5);
+// Console.WriteLine(t6);
+
+// TimeSpan t1 = new TimeSpan();
+// TimeSpan t2 = new TimeSpan(900000000L);
+// TimeSpan t3 = new TimeSpan(2, 11, 21);
+// TimeSpan t4 = new TimeSpan(1, 2, 11, 21);
+// TimeSpan t5 = new TimeSpan(1, 2, 11, 21, 321);
+
+// Console.WriteLine(t1);
+// Console.WriteLine(t2);
+// Console.WriteLine(t3);
+// Console.WriteLine(t4);
+// Console.WriteLine(t5);
+
+
+// TimeSpan t1 = new TimeSpan(0, 1, 30);
+
+// Console.WriteLine(t1);
+// Console.WriteLine(t1.Ticks);
+
+// DateTime d1 = DateTime.ParseExact("2000-08-15", "yyyy-MM-dd", CultureInfo.InvariantCulture);
+
+// DateTime d2 = DateTime.ParseExact("18/08/2000 13:05:58", "dd/MM/yyyy HH:mm:ss", CultureInfo.InvariantCulture);
+
+// Console.WriteLine(d1);
+// Console.WriteLine(d2);
+
+// DateTime d1 = DateTime.Parse("2000-08-15");
+// DateTime d2 = DateTime.Parse("2000-08-15 13:05:58");
+
+// DateTime d3 = DateTime.Parse("15/08/2000");
+// DateTime d4 = DateTime.Parse("15/08/2000 13:05:58");
+
+// Console.WriteLine(d1);
+// Console.WriteLine(d2);
+// Console.WriteLine(d3);
+// Console.WriteLine(d4);
+
+// DateTime d1 = new DateTime(2025, 10, 25);
+// DateTime d2 = DateTime.Now;
+// DateTime d3 = DateTime.Today;
+// DateTime d4 = DateTime.UtcNow;
+
+// Console.WriteLine(d1);
+// Console.WriteLine(d2);
+// Console.WriteLine(d3);
+// Console.WriteLine(d4);
+
+
+// string original = "abcde FGHIJ ABC abc DEFG   ";
+
+// string s1 = original.ToUpper();
+// string s2 = original.ToLower();
+// string s3 = original.Trim();
+
+// int n1 = original.IndexOf("bc");
+// int n2 = original.LastIndexOf("bc");
+
+// string s4 = original.Substring(3);
+// string s5 = original.Substring(3, 5);
+
+// string s6 = original.Replace('a', 'x');
+// string s7 = original.Replace("abc", "xy");
+
+// bool b1 = String.IsNullOrEmpty(original);
+// bool b2 = String.IsNullOrWhiteSpace(original);
+
+// Console.WriteLine("Original: -" + original + "-");
+// Console.WriteLine("ToUpper: -" + s1 + "-");
+// Console.WriteLine("ToLower: -" + s2 + "-");
+// Console.WriteLine("Trim: -" + s3 + "-");
+// Console.WriteLine("IndexOf('bc'): " + n1);
+// Console.WriteLine("LastIndexOf('bc'): " + n2);
+// Console.WriteLine("Substring(3): -"+ s4 + "-");
+// Console.WriteLine("Substring(3 , 5): -"+ s5 + "-");
+// Console.WriteLine("Replace ('a' , 'x'): -"+ s6 + "-");
+// Console.WriteLine("Replace ('abc , 'xy'): -"+ s7 + "-");
+// Console.WriteLine("IsNullOrEmpty: "+ b1);
+// Console.WriteLine("IsNullWhiteSpace: "+ b2);
+
+
+// double preco = double.Parse(Console.ReadLine(), CultureInfo.InstalledUICulture);
+// double desconto = (preco < 20.0) ? preco * 0.1 : preco * 0.05;
+
+// // if (preco < 20.0)
+// // {
+// //     desconto = preco * 0.1;
+// // }
+// // else
+// // {
+// //     desconto = preco * 0.05;
+// // }
+
+// Console.WriteLine(desconto);
+
+
+// int x = int.Parse(Console.ReadLine());
+// string day;
+
+// switch (x)
+// {
+//     case 1:
+//         day = "Sunday";
+//         break;
+
+//     case 2:
+//         day = "Monday";
+//         break;
+
+//     case 3:
+//         day = "Tuesday";
+//         break;
+
+//     case 4:
+//         day = "Wednesday";
+//         break;
+
+//     case 5:
+//         day = "Thursday";
+//         break;
+
+//     case 6:
+//         day = "Friday";
+//         break;
+
+//     case 7:
+//         day = "saturday";
+//         break;
+
+//     default:
+//         day = "Invalid value";
+//         break;
+// }
+
+// Console.WriteLine(day);
+
+
+// var x = 10;
+// var y = 20.0;
+// var z = "Maria";
+
+// Console.WriteLine(x);
+// Console.WriteLine(y);
+// Console.WriteLine(z);
 
 
 // Produto p = new Produto("TV", 500.00, 10);

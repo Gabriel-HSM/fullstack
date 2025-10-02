@@ -1,0 +1,15 @@
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\CourseOOIntermediare\bin\Debug\net9.0\CourseOOIntermediare.exe
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\CourseOOIntermediare\bin\Debug\net9.0\CourseOOIntermediare.deps.json
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\CourseOOIntermediare\bin\Debug\net9.0\CourseOOIntermediare.runtimeconfig.json
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\CourseOOIntermediare\bin\Debug\net9.0\CourseOOIntermediare.dll
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\CourseOOIntermediare\bin\Debug\net9.0\CourseOOIntermediare.pdb
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\CourseOOIntermediare\obj\Debug\net9.0\CourseOOIntermediare.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\CourseOOIntermediare\obj\Debug\net9.0\CourseOOIntermediare.AssemblyInfoInputs.cache
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\CourseOOIntermediare\obj\Debug\net9.0\CourseOOIntermediare.AssemblyInfo.cs
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\CourseOOIntermediare\obj\Debug\net9.0\CourseOOIntermediare.csproj.CoreCompileInputs.cache
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\CourseOOIntermediare\obj\Debug\net9.0\CourseOOIntermediare.sourcelink.json
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\CourseOOIntermediare\obj\Debug\net9.0\CourseOOIntermediare.dll
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\CourseOOIntermediare\obj\Debug\net9.0\refint\CourseOOIntermediare.dll
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\CourseOOIntermediare\obj\Debug\net9.0\CourseOOIntermediare.pdb
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\CourseOOIntermediare\obj\Debug\net9.0\CourseOOIntermediare.genruntimeconfig.cache
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\CourseOOIntermediare\obj\Debug\net9.0\ref\CourseOOIntermediare.dll
