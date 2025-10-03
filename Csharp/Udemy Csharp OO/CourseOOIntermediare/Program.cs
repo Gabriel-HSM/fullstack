@@ -9,3 +9,8 @@ Order order = new Order
 };
 
 Console.WriteLine(order);
+
+string txt = OrderStatus.PendingPayment.ToString();
+Console.WriteLine(txt);
+
+OrderStatus os = Enum.Parse<OrderStatus>("Delivered");

@@ -1,0 +1,15 @@
+C:\Projetos\fullstack\Csharp\PraticasSolo\ExerciciosGeral\bin\Debug\net9.0\ExerciciosGeral.exe
+C:\Projetos\fullstack\Csharp\PraticasSolo\ExerciciosGeral\bin\Debug\net9.0\ExerciciosGeral.deps.json
+C:\Projetos\fullstack\Csharp\PraticasSolo\ExerciciosGeral\bin\Debug\net9.0\ExerciciosGeral.runtimeconfig.json
+C:\Projetos\fullstack\Csharp\PraticasSolo\ExerciciosGeral\bin\Debug\net9.0\ExerciciosGeral.dll
+C:\Projetos\fullstack\Csharp\PraticasSolo\ExerciciosGeral\bin\Debug\net9.0\ExerciciosGeral.pdb
+C:\Projetos\fullstack\Csharp\PraticasSolo\ExerciciosGeral\obj\Debug\net9.0\ExerciciosGeral.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\fullstack\Csharp\PraticasSolo\ExerciciosGeral\obj\Debug\net9.0\ExerciciosGeral.AssemblyInfoInputs.cache
+C:\Projetos\fullstack\Csharp\PraticasSolo\ExerciciosGeral\obj\Debug\net9.0\ExerciciosGeral.AssemblyInfo.cs
+C:\Projetos\fullstack\Csharp\PraticasSolo\ExerciciosGeral\obj\Debug\net9.0\ExerciciosGeral.csproj.CoreCompileInputs.cache
+C:\Projetos\fullstack\Csharp\PraticasSolo\ExerciciosGeral\obj\Debug\net9.0\ExerciciosGeral.sourcelink.json
+C:\Projetos\fullstack\Csharp\PraticasSolo\ExerciciosGeral\obj\Debug\net9.0\ExerciciosGeral.dll
+C:\Projetos\fullstack\Csharp\PraticasSolo\ExerciciosGeral\obj\Debug\net9.0\refint\ExerciciosGeral.dll
+C:\Projetos\fullstack\Csharp\PraticasSolo\ExerciciosGeral\obj\Debug\net9.0\ExerciciosGeral.pdb
+C:\Projetos\fullstack\Csharp\PraticasSolo\ExerciciosGeral\obj\Debug\net9.0\ExerciciosGeral.genruntimeconfig.cache
+C:\Projetos\fullstack\Csharp\PraticasSolo\ExerciciosGeral\obj\Debug\net9.0\ref\ExerciciosGeral.dll
