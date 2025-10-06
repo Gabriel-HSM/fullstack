@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Correção-Exercicio-Costrutores-Propriedades")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab54395ac947dfd95dfe0047e05c07aceaaf3052")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f52de871d32fa14f8cfadcb8148eee01e4bcbc4c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Correção-Exercicio-Costrutores-Propriedades")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Correção-Exercicio-Costrutores-Propriedades")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

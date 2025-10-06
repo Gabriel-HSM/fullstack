@@ -14,4 +14,12 @@ catalog.AddProduct(product3);
 
 catalog.ShowCatalog();
 
+Order order1 = new Order(1);
+
+order1.AddOrder(new OrderedItem(product1, 3));
+order1.AddOrder(new OrderedItem(product2, 10));
+order1.AddOrder(new OrderedItem(product3, 20));
+
+Console.WriteLine($"Total do pedido {order1.Id}: {order1.CalcTotal():C}");
+
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

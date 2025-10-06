@@ -10,13 +10,14 @@ namespace ExerciciosGeral
         public Product Product { get; set; }
         public int Quantity { get; set; }
         public double UnitPrice { get; set; }
-        public decimal Subtotal { get; set; }
+        public double Subtotal { get; set; }
 
         public OrderedItem(Product product, int quantity)
         {
             this.Product = product;
             this.Quantity = quantity;
-            this.UnitPrice = Product.Price;
+            this.UnitPrice = product.Price;
+            this.Subtotal = quantity * product.Price;
         }
 
     }

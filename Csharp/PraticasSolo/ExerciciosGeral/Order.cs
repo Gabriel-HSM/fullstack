@@ -28,9 +28,14 @@ namespace ExerciciosGeral
             _orders.Remove(order);
         }
 
-        public void CalcTotal()
+        public double CalcTotal()
         {
-            
+            double subtotal = 0;
+            foreach (OrderedItem i in _orders)
+            {
+                subtotal += i.Subtotal;
+            }
+            return subtotal;
         }
     }
 }

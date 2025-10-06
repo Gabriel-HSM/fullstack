@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CourseOOIntermediare")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+836b6fb968562ee56e34ffb3ef6f88029eb5a9fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f52de871d32fa14f8cfadcb8148eee01e4bcbc4c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CourseOOIntermediare")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CourseOOIntermediare")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
