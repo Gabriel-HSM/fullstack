@@ -1,4 +1,5 @@
-﻿using System.Runtime.Intrinsics.Arm;
+﻿using System.Globalization;
+using System.Runtime.Intrinsics.Arm;
 using Exercicio_15_StringBuildes_Entidade_Enums_ETC.entities;
 using Exercicio_15_StringBuildes_Entidade_Enums_ETC.entities.Enums;
 
@@ -14,9 +15,12 @@ Client client = new Client(name, email, birthDate);
 
 Console.WriteLine("Enter order data: ");
 Console.Write("Status: ");
-string status = Console.ReadLine();
+OrderStatus status = Enum.Parse<OrderStatus>(Console.ReadLine());
+
 Console.Write("How many items to this order? ");
 int n = int.Parse(Console.ReadLine());
+
+Order order = new Order(client, status);
 
 for (int i = 1; i <= n; i++)
 {
@@ -24,12 +28,17 @@ for (int i = 1; i <= n; i++)
     Console.Write("Product Name: ");
     string productName = Console.ReadLine();
     Console.Write("Product Price: ");
-    double productPrice = double.Parse(Console.ReadLine());
+    double productPrice = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
     Console.Write("Quantity: ");
     int quantity = int.Parse(Console.ReadLine());
 
     Product product = new Product(productName, productPrice);
-    OrderedItem orderedItem = new OrderedItem(n, product.Price, product);
-    Order order = new Order(OrderStatus status, OrderedItem orderedItem);
-    
+    OrderedItem orderItem = new OrderedItem(quantity, product.Price, product);
+
+    order.AddItem(orderItem);
+
 }
+
+Console.WriteLine();
+Console.WriteLine("ORDER SUMARY: ");
+Console.WriteLine(order);

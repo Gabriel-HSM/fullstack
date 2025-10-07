@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Globalization;
 
 namespace Exercicio_15_StringBuildes_Entidade_Enums_ETC.entities
 {
@@ -9,24 +10,23 @@ namespace Exercicio_15_StringBuildes_Entidade_Enums_ETC.entities
     {
         public int Quantity { get; set; }
         public double Price { get; set; }
-        public List<Product> Products { get; set; } = new List<Product>();
+        public Product Product { get; set; }
 
         public OrderedItem(int quantity, double price, Product produtc)
         {
             Quantity = quantity;
             Price = price;
-            Products.Add(produtc);
+            Product = produtc;
         }
 
         public double SubTotal()
         {
-            double subTotal = 0;
-            foreach (Product product in Products)
-            {
-                subTotal += product.Price * Quantity;
+            return Quantity * Price;
+        }
 
-            }
-            return subTotal;
+        public override string ToString()
+        {
+            return $"{Product.Name}, {Price.ToString("F2", CultureInfo.InvariantCulture)}, Quantity: {Quantity}, Subtotal: {SubTotal().ToString("F2", CultureInfo.InvariantCulture)}";
         }
 
     }

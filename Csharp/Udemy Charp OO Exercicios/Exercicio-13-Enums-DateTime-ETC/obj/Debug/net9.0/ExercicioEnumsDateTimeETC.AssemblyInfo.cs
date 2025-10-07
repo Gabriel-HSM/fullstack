@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExercicioEnumsDateTimeETC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f52de871d32fa14f8cfadcb8148eee01e4bcbc4c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0ff0d31f8223f5dc566d0657afd7331088c7718")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExercicioEnumsDateTimeETC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExercicioEnumsDateTimeETC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

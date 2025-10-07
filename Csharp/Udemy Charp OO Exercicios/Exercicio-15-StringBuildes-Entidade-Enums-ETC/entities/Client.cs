@@ -17,5 +17,10 @@ namespace Exercicio_15_StringBuildes_Entidade_Enums_ETC.entities
             Email = email;
             BirthDate = birthDate;
         }
+
+        public override string ToString()
+        {
+            return $"{Name} {BirthDate.ToString("dd/MM/yyyy")} - {Email}";
+        }
     }
 }
