@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Course-Herança-Polimorfismo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0ff0d31f8223f5dc566d0657afd7331088c7718")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3db9b2e11935ffe9eef736602cd2f3da7aefd69")]
 [assembly: System.Reflection.AssemblyProductAttribute("Course-Herança-Polimorfismo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Course-Herança-Polimorfismo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

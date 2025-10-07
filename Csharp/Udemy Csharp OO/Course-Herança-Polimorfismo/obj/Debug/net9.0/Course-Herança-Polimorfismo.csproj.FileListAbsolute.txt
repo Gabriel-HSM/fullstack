@@ -1,0 +1,15 @@
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Herança-Polimorfismo\bin\Debug\net9.0\Course-Herança-Polimorfismo.exe
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Herança-Polimorfismo\bin\Debug\net9.0\Course-Herança-Polimorfismo.deps.json
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Herança-Polimorfismo\bin\Debug\net9.0\Course-Herança-Polimorfismo.runtimeconfig.json
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Herança-Polimorfismo\bin\Debug\net9.0\Course-Herança-Polimorfismo.dll
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Herança-Polimorfismo\bin\Debug\net9.0\Course-Herança-Polimorfismo.pdb
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Herança-Polimorfismo\obj\Debug\net9.0\Course-Herança-Polimorfismo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Herança-Polimorfismo\obj\Debug\net9.0\Course-Herança-Polimorfismo.AssemblyInfoInputs.cache
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Herança-Polimorfismo\obj\Debug\net9.0\Course-Herança-Polimorfismo.AssemblyInfo.cs
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Herança-Polimorfismo\obj\Debug\net9.0\Course-Herança-Polimorfismo.csproj.CoreCompileInputs.cache
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Herança-Polimorfismo\obj\Debug\net9.0\Course-Herança-Polimorfismo.sourcelink.json
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Herança-Polimorfismo\obj\Debug\net9.0\Course-Herança-Polimorfismo.dll
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Herança-Polimorfismo\obj\Debug\net9.0\refint\Course-Herança-Polimorfismo.dll
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Herança-Polimorfismo\obj\Debug\net9.0\Course-Herança-Polimorfismo.pdb
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Herança-Polimorfismo\obj\Debug\net9.0\Course-Herança-Polimorfismo.genruntimeconfig.cache
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Herança-Polimorfismo\obj\Debug\net9.0\ref\Course-Herança-Polimorfismo.dll
