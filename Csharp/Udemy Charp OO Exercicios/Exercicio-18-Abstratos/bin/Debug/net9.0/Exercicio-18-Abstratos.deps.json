@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Exercicio-18-Abstratos/1.0.0": {
+        "runtime": {
+          "Exercicio-18-Abstratos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Exercicio-18-Abstratos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

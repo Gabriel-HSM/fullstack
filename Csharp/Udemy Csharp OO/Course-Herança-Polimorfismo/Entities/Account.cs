@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Course_Herança_Polimorfismo.Entities
 {
-    public class Account
+    public abstract class Account
     {
         public int Number { get; protected set; }
         public string Holder { get; protected set; }
