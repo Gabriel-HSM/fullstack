@@ -16,7 +16,14 @@ namespace Exercicio_19_Abstracts_methods_class.Entities
 
         public override double Tax()
         {
-            if (AnualIncome < 2000.00)
+            if (AnualIncome < 20000.00)
+            {
+                return (AnualIncome * 0.15) - (HealthExpenditures * 0.50);
+            }
+            else
+            {
+                return (AnualIncome * 0.25) - (HealthExpenditures * 0.50);
+            }
         }
     }
 }

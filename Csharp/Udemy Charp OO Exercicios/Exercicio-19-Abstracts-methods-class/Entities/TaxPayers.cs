@@ -17,6 +17,7 @@ namespace Exercicio_19_Abstracts_methods_class.Entities
         }
 
         public abstract double Tax();
+
         
     }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Exercicio-19-Abstracts-methods-class")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06165d0a938de417df3470afc2e2b462f1d73db3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa2c5e8f1f0041f17d6115542b890f1783caf10d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Exercicio-19-Abstracts-methods-class")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Exercicio-19-Abstracts-methods-class")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

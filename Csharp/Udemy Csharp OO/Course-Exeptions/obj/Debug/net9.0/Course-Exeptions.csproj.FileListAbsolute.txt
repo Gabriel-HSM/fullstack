@@ -1,0 +1,15 @@
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Exeptions\bin\Debug\net9.0\Course-Exeptions.exe
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Exeptions\bin\Debug\net9.0\Course-Exeptions.deps.json
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Exeptions\bin\Debug\net9.0\Course-Exeptions.runtimeconfig.json
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Exeptions\bin\Debug\net9.0\Course-Exeptions.dll
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Exeptions\bin\Debug\net9.0\Course-Exeptions.pdb
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Exeptions\obj\Debug\net9.0\Course-Exeptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Exeptions\obj\Debug\net9.0\Course-Exeptions.AssemblyInfoInputs.cache
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Exeptions\obj\Debug\net9.0\Course-Exeptions.AssemblyInfo.cs
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Exeptions\obj\Debug\net9.0\Course-Exeptions.csproj.CoreCompileInputs.cache
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Exeptions\obj\Debug\net9.0\Course-Exeptions.sourcelink.json
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Exeptions\obj\Debug\net9.0\Course-Exeptions.dll
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Exeptions\obj\Debug\net9.0\refint\Course-Exeptions.dll
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Exeptions\obj\Debug\net9.0\Course-Exeptions.pdb
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Exeptions\obj\Debug\net9.0\Course-Exeptions.genruntimeconfig.cache
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Exeptions\obj\Debug\net9.0\ref\Course-Exeptions.dll

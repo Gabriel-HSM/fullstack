@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Exercicio-19-Abstracts-methods-class/1.0.0": {
+        "runtime": {
+          "Exercicio-19-Abstracts-methods-class.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Exercicio-19-Abstracts-methods-class/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

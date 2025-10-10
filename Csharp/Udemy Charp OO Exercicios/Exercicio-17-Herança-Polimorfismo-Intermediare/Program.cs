@@ -17,7 +17,7 @@ for (int i = 1; i <= nProduct; i++)
 
     if (cui == 'c' || cui == 'C')
     {
-
+ 
         products.Add(new Product(name, price));
 
     }
