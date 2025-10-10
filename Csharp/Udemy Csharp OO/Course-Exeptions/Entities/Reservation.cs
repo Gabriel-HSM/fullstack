@@ -1,7 +1,5 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Course_Exeptions.Entities.Exceptions;
 
 namespace Course_Exeptions.Entities
 {
@@ -9,25 +7,40 @@ namespace Course_Exeptions.Entities
     {
         public int RoomNumber { get; set; }
         public DateTime CheckIn { get; set; }
-        public DateTime Checkout { get; set; }
+        public DateTime CheckOut { get; set; }
 
         public Reservation(int roomNumber, DateTime checkin, DateTime checkout)
         {
+            if (checkout <= checkin)
+            {
+                throw new DomainException("Error in reservation: Check-out date must be after check-in date");
+            }
+            
             RoomNumber = roomNumber;
             CheckIn = checkin;
-            Checkout = checkout;
+            CheckOut = checkout;
         }
 
         public int Duration()
         {
-            TimeSpan duration = Checkout.Subtract(CheckIn);
+            TimeSpan duration = CheckOut.Subtract(CheckIn);
             return (int)duration.TotalDays;
         }
 
         public void UpdateDate(DateTime checkin, DateTime checkout)
         {
+            DateTime now = DateTime.Now;
+            if (checkin < now || checkout  < now)
+            {
+               throw new DomainException("Error in reservation: Reservation dates for update must be future dates");
+            }
+            if (CheckOut <= CheckIn)
+            {
+                throw new DomainException("Error in reservation: Check-out date must be after check-in date");
+            }
+
             CheckIn = checkin;
-            Checkout = checkout;
+            CheckOut = checkout;
         }
 
         public override string ToString()
@@ -37,7 +50,7 @@ namespace Course_Exeptions.Entities
             + ", check-in: " 
             + CheckIn.ToString("dd/MM/yyyy")
             + ", check-out: "
-            + Checkout.ToString("dd/MM/yyyy")
+            + CheckOut.ToString("dd/MM/yyyy")
             + ", "
             + Duration()
             + " nights";

@@ -1,0 +1,15 @@
+C:\Projetos\fullstack\Csharp\Udemy Charp OO Exercicios\Exercicio-20- Exception\bin\Debug\net9.0\Exercicio-20- Exception.exe
+C:\Projetos\fullstack\Csharp\Udemy Charp OO Exercicios\Exercicio-20- Exception\bin\Debug\net9.0\Exercicio-20- Exception.deps.json
+C:\Projetos\fullstack\Csharp\Udemy Charp OO Exercicios\Exercicio-20- Exception\bin\Debug\net9.0\Exercicio-20- Exception.runtimeconfig.json
+C:\Projetos\fullstack\Csharp\Udemy Charp OO Exercicios\Exercicio-20- Exception\bin\Debug\net9.0\Exercicio-20- Exception.dll
+C:\Projetos\fullstack\Csharp\Udemy Charp OO Exercicios\Exercicio-20- Exception\bin\Debug\net9.0\Exercicio-20- Exception.pdb
+C:\Projetos\fullstack\Csharp\Udemy Charp OO Exercicios\Exercicio-20- Exception\obj\Debug\net9.0\Exercicio-20- Exception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\fullstack\Csharp\Udemy Charp OO Exercicios\Exercicio-20- Exception\obj\Debug\net9.0\Exercicio-20- Exception.AssemblyInfoInputs.cache
+C:\Projetos\fullstack\Csharp\Udemy Charp OO Exercicios\Exercicio-20- Exception\obj\Debug\net9.0\Exercicio-20- Exception.AssemblyInfo.cs
+C:\Projetos\fullstack\Csharp\Udemy Charp OO Exercicios\Exercicio-20- Exception\obj\Debug\net9.0\Exercicio-20- Exception.csproj.CoreCompileInputs.cache
+C:\Projetos\fullstack\Csharp\Udemy Charp OO Exercicios\Exercicio-20- Exception\obj\Debug\net9.0\Exercicio-20- Exception.sourcelink.json
+C:\Projetos\fullstack\Csharp\Udemy Charp OO Exercicios\Exercicio-20- Exception\obj\Debug\net9.0\Exercicio-20- Exception.dll
+C:\Projetos\fullstack\Csharp\Udemy Charp OO Exercicios\Exercicio-20- Exception\obj\Debug\net9.0\refint\Exercicio-20- Exception.dll
+C:\Projetos\fullstack\Csharp\Udemy Charp OO Exercicios\Exercicio-20- Exception\obj\Debug\net9.0\Exercicio-20- Exception.pdb
+C:\Projetos\fullstack\Csharp\Udemy Charp OO Exercicios\Exercicio-20- Exception\obj\Debug\net9.0\Exercicio-20- Exception.genruntimeconfig.cache
+C:\Projetos\fullstack\Csharp\Udemy Charp OO Exercicios\Exercicio-20- Exception\obj\Debug\net9.0\ref\Exercicio-20- Exception.dll
