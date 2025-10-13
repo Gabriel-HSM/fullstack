@@ -1,5 +1,6 @@
 ﻿using System.Globalization;
 using Exercicio_20__Exception.Entities;
+using Exercicio_20__Exception.Entities.Excepitions;
 
 Console.WriteLine("Enter account data");
 Console.Write("Number: ");
@@ -17,6 +18,13 @@ Console.WriteLine();
 Console.Write("Enter amount for withdraw: ");
 double withdraw = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-account.Withdraw(withdraw);
+try
+{
+    account.Withdraw(withdraw);
 
-Console.WriteLine("New balance: " + account.Balance.ToString("F2", CultureInfo.InvariantCulture));
+    Console.WriteLine("New balance: " + account.Balance.ToString("F2", CultureInfo.InvariantCulture));
+}
+catch (DomainException e)
+{
+    Console.WriteLine("Widraw error: " + e.Message);
+}
