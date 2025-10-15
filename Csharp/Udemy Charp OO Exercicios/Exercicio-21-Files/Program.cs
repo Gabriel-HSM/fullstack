@@ -19,7 +19,7 @@ try
         {
             string[] items = line.Split(",");
             string itemName = items[0];
-            double itemValue = double.Parse(items[1], CultureInfo.InvariantCulture);
+            double itemValue = double.Parse(items[1], CultureInfo.InvariantCulture); 
             int itemQuantity = int.Parse(items[2]);
 
             Product product = new Product(itemName, itemValue, itemQuantity);
