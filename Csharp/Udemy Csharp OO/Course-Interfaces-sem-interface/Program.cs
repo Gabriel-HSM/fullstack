@@ -18,7 +18,7 @@ double day = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
 CarRental carRental = new CarRental(start, finish, new Vehicle(model));
 
-RentalService rentalService = new RentalService(hour, day, new BrazilTaxService());
+RentalService rentalService = new RentalService(hour, day);
 
 rentalService.ProcessInvoice(carRental);
 

@@ -2,7 +2,7 @@ using System;
 
 namespace Course_Interfaces.Services
 {
-    public class BrazilTaxService : ITaxService
+    public class BrazilTaxService
     {
         public double Tax(double amount)
         {

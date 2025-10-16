@@ -1,0 +1,15 @@
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interfaces\bin\Debug\net9.0\Course-Interfaces.exe
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interfaces\bin\Debug\net9.0\Course-Interfaces.deps.json
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interfaces\bin\Debug\net9.0\Course-Interfaces.runtimeconfig.json
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interfaces\bin\Debug\net9.0\Course-Interfaces.dll
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interfaces\bin\Debug\net9.0\Course-Interfaces.pdb
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interfaces\obj\Debug\net9.0\Course-Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interfaces\obj\Debug\net9.0\Course-Interfaces.AssemblyInfoInputs.cache
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interfaces\obj\Debug\net9.0\Course-Interfaces.AssemblyInfo.cs
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interfaces\obj\Debug\net9.0\Course-Interfaces.csproj.CoreCompileInputs.cache
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interfaces\obj\Debug\net9.0\Course-Interfaces.sourcelink.json
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interfaces\obj\Debug\net9.0\Course-Interfaces.dll
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interfaces\obj\Debug\net9.0\refint\Course-Interfaces.dll
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interfaces\obj\Debug\net9.0\Course-Interfaces.pdb
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interfaces\obj\Debug\net9.0\Course-Interfaces.genruntimeconfig.cache
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interfaces\obj\Debug\net9.0\ref\Course-Interfaces.dll
