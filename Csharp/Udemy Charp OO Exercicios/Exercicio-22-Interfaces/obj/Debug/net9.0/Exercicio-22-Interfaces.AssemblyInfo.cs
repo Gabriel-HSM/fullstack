@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Exercicio-22-Interfaces")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e67e422e4abf75d0cd27020f0b51078b620e7175")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26a716f678b21bdca5625920ec9c07e9c25c6c11")]
 [assembly: System.Reflection.AssemblyProductAttribute("Exercicio-22-Interfaces")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Exercicio-22-Interfaces")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,13 +7,6 @@ namespace Exercicio_22_Interfaces.Entities
 {
     public class Installment
     {
-        public DateTime Date { get; set; }
-        public double Amount { get; set; }
-
-        public Installment(DateTime date, double amount)
-        {
-            Date = date;
-            Amount = amount;
-        }
+        public int Quantity { get; set; }
     }
 }
