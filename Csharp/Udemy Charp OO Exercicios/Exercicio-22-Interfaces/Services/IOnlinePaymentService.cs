@@ -7,5 +7,7 @@ namespace Exercicio_22_Interfaces.Services
 {
     public interface IOnlinePaymentService
     {
+        public double PaymentFee(double amount);
+        public double Interest(double amount, int installments);
     }
 }
