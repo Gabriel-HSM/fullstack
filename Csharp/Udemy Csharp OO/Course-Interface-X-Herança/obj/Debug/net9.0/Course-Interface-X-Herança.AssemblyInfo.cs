@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Course-Interface-X-Herança")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cef01417cb42a8f69c5d0ddd9c722d840df3a738")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8e257282b795e30225361dadeed0efdffbdaf38")]
 [assembly: System.Reflection.AssemblyProductAttribute("Course-Interface-X-Herança")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Course-Interface-X-Herança")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

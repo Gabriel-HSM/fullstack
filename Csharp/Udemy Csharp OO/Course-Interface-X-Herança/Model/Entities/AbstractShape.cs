@@ -1,10 +1,8 @@
-using System;
-using System.Collections.Generic;
 using Course_Interface_X_Herança.Model.Enums;
 
 namespace Course_Interface_X_Herança.Model.Entities
 {
-    abstract class Shape
+    abstract class AbstractShape : IShape
     {
         public Colors Color { get; set; }
 

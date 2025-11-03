@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Course_Interface_X_Herança.Model.Entities
 {
-    class Retangle : Shape
+    class Retangle : AbstractShape
     {
         public double Width { get; set; }
         public double Height { get; set; }

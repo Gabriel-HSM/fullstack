@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Course_Interface_X_Herança.Model.Entities
 {
-    class Circle : Shape
+    class Circle : AbstractShape
     {
         public double Radius { get; set; }
 

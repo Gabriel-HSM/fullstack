@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\Course-Interface-X-Herança\\Course-Interface-X-Herança.csproj": {}
+    "c:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\Course-Interface-X-Herança\\Course-Interface-X-Herança.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\Course-Interface-X-Herança\\Course-Interface-X-Herança.csproj": {
+    "c:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\Course-Interface-X-Herança\\Course-Interface-X-Herança.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\Course-Interface-X-Herança\\Course-Interface-X-Herança.csproj",
+        "projectUniqueName": "c:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\Course-Interface-X-Herança\\Course-Interface-X-Herança.csproj",
         "projectName": "Course-Interface-X-Herança",
-        "projectPath": "C:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\Course-Interface-X-Herança\\Course-Interface-X-Herança.csproj",
+        "projectPath": "c:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\Course-Interface-X-Herança\\Course-Interface-X-Herança.csproj",
         "packagesPath": "C:\\Users\\Iel Sistema\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\Course-Interface-X-Herança\\obj\\",
+        "outputPath": "c:\\Projetos\\fullstack\\Csharp\\Udemy Csharp OO\\Course-Interface-X-Herança\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Iel Sistema\\AppData\\Roaming\\NuGet\\NuGet.Config"

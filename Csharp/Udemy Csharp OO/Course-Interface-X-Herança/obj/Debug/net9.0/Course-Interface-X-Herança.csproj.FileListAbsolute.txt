@@ -1,0 +1,15 @@
+c:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interface-X-Herança\bin\Debug\net9.0\Course-Interface-X-Herança.exe
+c:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interface-X-Herança\bin\Debug\net9.0\Course-Interface-X-Herança.deps.json
+c:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interface-X-Herança\bin\Debug\net9.0\Course-Interface-X-Herança.runtimeconfig.json
+c:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interface-X-Herança\bin\Debug\net9.0\Course-Interface-X-Herança.dll
+c:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interface-X-Herança\bin\Debug\net9.0\Course-Interface-X-Herança.pdb
+c:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interface-X-Herança\obj\Debug\net9.0\Course-Interface-X-Herança.GeneratedMSBuildEditorConfig.editorconfig
+c:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interface-X-Herança\obj\Debug\net9.0\Course-Interface-X-Herança.AssemblyInfoInputs.cache
+c:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interface-X-Herança\obj\Debug\net9.0\Course-Interface-X-Herança.AssemblyInfo.cs
+c:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interface-X-Herança\obj\Debug\net9.0\Course-Interface-X-Herança.csproj.CoreCompileInputs.cache
+c:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interface-X-Herança\obj\Debug\net9.0\Course-Interface-X-Herança.sourcelink.json
+c:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interface-X-Herança\obj\Debug\net9.0\Course-Interface-X-Herança.dll
+c:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interface-X-Herança\obj\Debug\net9.0\refint\Course-Interface-X-Herança.dll
+c:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interface-X-Herança\obj\Debug\net9.0\Course-Interface-X-Herança.pdb
+c:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interface-X-Herança\obj\Debug\net9.0\Course-Interface-X-Herança.genruntimeconfig.cache
+c:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Interface-X-Herança\obj\Debug\net9.0\ref\Course-Interface-X-Herança.dll

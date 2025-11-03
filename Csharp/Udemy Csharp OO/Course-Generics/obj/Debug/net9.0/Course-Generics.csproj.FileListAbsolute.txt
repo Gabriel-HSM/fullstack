@@ -1,0 +1,15 @@
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Generics\bin\Debug\net9.0\Course-Generics.exe
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Generics\bin\Debug\net9.0\Course-Generics.deps.json
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Generics\bin\Debug\net9.0\Course-Generics.runtimeconfig.json
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Generics\bin\Debug\net9.0\Course-Generics.dll
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Generics\bin\Debug\net9.0\Course-Generics.pdb
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Generics\obj\Debug\net9.0\Course-Generics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Generics\obj\Debug\net9.0\Course-Generics.AssemblyInfoInputs.cache
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Generics\obj\Debug\net9.0\Course-Generics.AssemblyInfo.cs
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Generics\obj\Debug\net9.0\Course-Generics.csproj.CoreCompileInputs.cache
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Generics\obj\Debug\net9.0\Course-Generics.sourcelink.json
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Generics\obj\Debug\net9.0\Course-Generics.dll
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Generics\obj\Debug\net9.0\refint\Course-Generics.dll
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Generics\obj\Debug\net9.0\Course-Generics.pdb
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Generics\obj\Debug\net9.0\Course-Generics.genruntimeconfig.cache
+C:\Projetos\fullstack\Csharp\Udemy Csharp OO\Course-Generics\obj\Debug\net9.0\ref\Course-Generics.dll
