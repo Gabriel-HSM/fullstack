@@ -1,0 +1,15 @@
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_notasAlunos\bin\Debug\net10.0\ProjetoGuiado_notasAlunos.exe
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_notasAlunos\bin\Debug\net10.0\ProjetoGuiado_notasAlunos.deps.json
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_notasAlunos\bin\Debug\net10.0\ProjetoGuiado_notasAlunos.runtimeconfig.json
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_notasAlunos\bin\Debug\net10.0\ProjetoGuiado_notasAlunos.dll
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_notasAlunos\bin\Debug\net10.0\ProjetoGuiado_notasAlunos.pdb
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_notasAlunos\obj\Debug\net10.0\ProjetoGuiado_notasAlunos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_notasAlunos\obj\Debug\net10.0\ProjetoGuiado_notasAlunos.AssemblyInfoInputs.cache
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_notasAlunos\obj\Debug\net10.0\ProjetoGuiado_notasAlunos.AssemblyInfo.cs
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_notasAlunos\obj\Debug\net10.0\ProjetoGuiado_notasAlunos.csproj.CoreCompileInputs.cache
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_notasAlunos\obj\Debug\net10.0\ProjetoGuiado_notasAlunos.sourcelink.json
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_notasAlunos\obj\Debug\net10.0\ProjetoGuiado_notasAlunos.dll
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_notasAlunos\obj\Debug\net10.0\refint\ProjetoGuiado_notasAlunos.dll
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_notasAlunos\obj\Debug\net10.0\ProjetoGuiado_notasAlunos.pdb
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_notasAlunos\obj\Debug\net10.0\ProjetoGuiado_notasAlunos.genruntimeconfig.cache
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_notasAlunos\obj\Debug\net10.0\ref\ProjetoGuiado_notasAlunos.dll
