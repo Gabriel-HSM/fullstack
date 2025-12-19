@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Iel Sistema\\Desktop\\TESTE\\api\\Api.csproj": {}
+    "C:\\Projetos\\fullstack\\Aspnet\\NextCoders\\Api\\Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Iel Sistema\\Desktop\\TESTE\\api\\Api.csproj": {
+    "C:\\Projetos\\fullstack\\Aspnet\\NextCoders\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iel Sistema\\Desktop\\TESTE\\api\\Api.csproj",
+        "projectUniqueName": "C:\\Projetos\\fullstack\\Aspnet\\NextCoders\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\Users\\Iel Sistema\\Desktop\\TESTE\\api\\Api.csproj",
+        "projectPath": "C:\\Projetos\\fullstack\\Aspnet\\NextCoders\\Api\\Api.csproj",
         "packagesPath": "C:\\Users\\Iel Sistema\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iel Sistema\\Desktop\\TESTE\\api\\obj\\",
+        "outputPath": "C:\\Projetos\\fullstack\\Aspnet\\NextCoders\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Iel Sistema\\AppData\\Roaming\\NuGet\\NuGet.Config"

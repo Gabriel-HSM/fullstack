@@ -1,0 +1,15 @@
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\MetodoRoll\bin\Debug\net10.0\MetodoRoll.exe
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\MetodoRoll\bin\Debug\net10.0\MetodoRoll.deps.json
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\MetodoRoll\bin\Debug\net10.0\MetodoRoll.runtimeconfig.json
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\MetodoRoll\bin\Debug\net10.0\MetodoRoll.dll
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\MetodoRoll\bin\Debug\net10.0\MetodoRoll.pdb
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\MetodoRoll\obj\Debug\net10.0\MetodoRoll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\MetodoRoll\obj\Debug\net10.0\MetodoRoll.AssemblyInfoInputs.cache
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\MetodoRoll\obj\Debug\net10.0\MetodoRoll.AssemblyInfo.cs
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\MetodoRoll\obj\Debug\net10.0\MetodoRoll.csproj.CoreCompileInputs.cache
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\MetodoRoll\obj\Debug\net10.0\MetodoRoll.sourcelink.json
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\MetodoRoll\obj\Debug\net10.0\MetodoRoll.dll
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\MetodoRoll\obj\Debug\net10.0\refint\MetodoRoll.dll
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\MetodoRoll\obj\Debug\net10.0\MetodoRoll.pdb
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\MetodoRoll\obj\Debug\net10.0\MetodoRoll.genruntimeconfig.cache
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\MetodoRoll\obj\Debug\net10.0\ref\MetodoRoll.dll

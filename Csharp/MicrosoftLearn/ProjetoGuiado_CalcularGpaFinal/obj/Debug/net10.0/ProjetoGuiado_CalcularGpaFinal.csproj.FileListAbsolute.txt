@@ -1,0 +1,15 @@
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_CalcularGpaFinal\bin\Debug\net10.0\ProjetoGuiado_CalcularGpaFinal.exe
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_CalcularGpaFinal\bin\Debug\net10.0\ProjetoGuiado_CalcularGpaFinal.deps.json
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_CalcularGpaFinal\bin\Debug\net10.0\ProjetoGuiado_CalcularGpaFinal.runtimeconfig.json
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_CalcularGpaFinal\bin\Debug\net10.0\ProjetoGuiado_CalcularGpaFinal.dll
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_CalcularGpaFinal\bin\Debug\net10.0\ProjetoGuiado_CalcularGpaFinal.pdb
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_CalcularGpaFinal\obj\Debug\net10.0\ProjetoGuiado_CalcularGpaFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_CalcularGpaFinal\obj\Debug\net10.0\ProjetoGuiado_CalcularGpaFinal.AssemblyInfoInputs.cache
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_CalcularGpaFinal\obj\Debug\net10.0\ProjetoGuiado_CalcularGpaFinal.AssemblyInfo.cs
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_CalcularGpaFinal\obj\Debug\net10.0\ProjetoGuiado_CalcularGpaFinal.csproj.CoreCompileInputs.cache
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_CalcularGpaFinal\obj\Debug\net10.0\ProjetoGuiado_CalcularGpaFinal.sourcelink.json
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_CalcularGpaFinal\obj\Debug\net10.0\ProjetoGuiado_CalcularGpaFinal.dll
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_CalcularGpaFinal\obj\Debug\net10.0\refint\ProjetoGuiado_CalcularGpaFinal.dll
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_CalcularGpaFinal\obj\Debug\net10.0\ProjetoGuiado_CalcularGpaFinal.pdb
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_CalcularGpaFinal\obj\Debug\net10.0\ProjetoGuiado_CalcularGpaFinal.genruntimeconfig.cache
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\ProjetoGuiado_CalcularGpaFinal\obj\Debug\net10.0\ref\ProjetoGuiado_CalcularGpaFinal.dll

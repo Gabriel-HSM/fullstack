@@ -1,0 +1,15 @@
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\Desafios\bin\Debug\net10.0\Desafios.exe
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\Desafios\bin\Debug\net10.0\Desafios.deps.json
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\Desafios\bin\Debug\net10.0\Desafios.runtimeconfig.json
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\Desafios\bin\Debug\net10.0\Desafios.dll
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\Desafios\bin\Debug\net10.0\Desafios.pdb
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\Desafios\obj\Debug\net10.0\Desafios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\Desafios\obj\Debug\net10.0\Desafios.AssemblyInfoInputs.cache
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\Desafios\obj\Debug\net10.0\Desafios.AssemblyInfo.cs
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\Desafios\obj\Debug\net10.0\Desafios.csproj.CoreCompileInputs.cache
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\Desafios\obj\Debug\net10.0\Desafios.sourcelink.json
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\Desafios\obj\Debug\net10.0\Desafios.dll
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\Desafios\obj\Debug\net10.0\refint\Desafios.dll
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\Desafios\obj\Debug\net10.0\Desafios.pdb
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\Desafios\obj\Debug\net10.0\Desafios.genruntimeconfig.cache
+C:\Projetos\fullstack\Csharp\MicrosoftLearn\Desafios\obj\Debug\net10.0\ref\Desafios.dll
