@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+AjKf29TvMA=",
+  "dgSpecHash": "Vb97ts/I5Pg=",
   "success": true,
-  "projectFilePath": "/home/gabriel/Projects/Emocionario/src/EmocionarioDomain/EmocionarioDomain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Projetos\\fullstack\\Aspnet\\NextCoders\\Emocionario\\src\\EmocionarioDomain\\EmocionarioDomain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Iel Sistema\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.11\\microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\Iel Sistema\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.11\\microsoft.windowsdesktop.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\Iel Sistema\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.11\\microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

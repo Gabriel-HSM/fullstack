@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/home/gabriel/Projects/Emocionario/src/EmocionarioDomain/EmocionarioDomain.csproj": {}
+    "C:\\Projetos\\fullstack\\Aspnet\\NextCoders\\Emocionario\\src\\EmocionarioDomain\\EmocionarioDomain.csproj": {}
   },
   "projects": {
-    "/home/gabriel/Projects/Emocionario/src/EmocionarioDomain/EmocionarioDomain.csproj": {
+    "C:\\Projetos\\fullstack\\Aspnet\\NextCoders\\Emocionario\\src\\EmocionarioDomain\\EmocionarioDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/gabriel/Projects/Emocionario/src/EmocionarioDomain/EmocionarioDomain.csproj",
+        "projectUniqueName": "C:\\Projetos\\fullstack\\Aspnet\\NextCoders\\Emocionario\\src\\EmocionarioDomain\\EmocionarioDomain.csproj",
         "projectName": "EmocionarioDomain",
-        "projectPath": "/home/gabriel/Projects/Emocionario/src/EmocionarioDomain/EmocionarioDomain.csproj",
-        "packagesPath": "/home/gabriel/.nuget/packages/",
-        "outputPath": "/home/gabriel/Projects/Emocionario/src/EmocionarioDomain/obj/",
+        "projectPath": "C:\\Projetos\\fullstack\\Aspnet\\NextCoders\\Emocionario\\src\\EmocionarioDomain\\EmocionarioDomain.csproj",
+        "packagesPath": "C:\\Users\\Iel Sistema\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\fullstack\\Aspnet\\NextCoders\\Emocionario\\src\\EmocionarioDomain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/gabriel/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Iel Sistema\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -55,12 +54,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.112/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,38 +1,42 @@
-﻿namespace EmocionarioDomain;
+﻿using EmocionarioDomain.Usuarios.ValueObjects;
+
+namespace EmocionarioDomain;
 
 public class Usuario
 {
     public Guid Id { get; private set; }
-    public string PrimeiroNome { get; private set; }
-    public string Sobrenome { get; private set; }
-    public string Email { get; private set; }
-    public DateOnly? DataNascimento { get; private set; }
+    public PrimeiroNome Nome { get; private set; }
+    public Sobrenome Sobrenome { get; private set; }
+    public Email Email { get; private set; }
+    public DataNascimento? DataNascimento { get; private set; }
     public DateTime DataCriacao {get; private set;}
     public DateTime? DataAtualizacao {get; private set;}
 
 
     private Usuario(){}
 
-    public Usuario Criar(string nome, string sobrenome, string email)
+    public Usuario Criar(PrimeiroNome nome, Sobrenome sobrenome, Email email, DataNascimento dataNascimento)
     {
-        new Usuario
+        return new Usuario
         {
             Id = Guid.NewGuid(),
-            PrimeiroNome = nome,
+            Nome = nome,
             Sobrenome = sobrenome,
             Email = email,
+            DataNascimento = dataNascimento,
             DataCriacao = DateTime.UtcNow,
         };
     }
 
-    public Usuario Atualizar(string nome, string sobrenome, string email)
+    public Usuario Atualizar(PrimeiroNome nome, Sobrenome sobrenome, Email email, DataNascimento dataNascimento)
     {
-        new Usuario
+        return new Usuario
         {
             Id = Guid.NewGuid(),
-            PrimeiroNome = nome,
+            Nome = nome,
             Sobrenome = sobrenome,
             Email = email,
+            DataNascimento = dataNascimento,
             DataAtualizacao = DateTime.UtcNow,
         };
     }
