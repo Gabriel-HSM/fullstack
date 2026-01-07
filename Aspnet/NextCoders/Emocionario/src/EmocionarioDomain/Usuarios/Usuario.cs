@@ -15,7 +15,7 @@ public class Usuario
 
     private Usuario(){}
 
-    public Usuario Criar(PrimeiroNome nome, Sobrenome sobrenome, Email email, DataNascimento dataNascimento)
+    public static Usuario Criar(PrimeiroNome nome, Sobrenome sobrenome, Email email, DataNascimento dataNascimento)
     {
         return new Usuario
         {
@@ -28,17 +28,13 @@ public class Usuario
         };
     }
 
-    public Usuario Atualizar(PrimeiroNome nome, Sobrenome sobrenome, Email email, DataNascimento dataNascimento)
+    public void Atualizar(PrimeiroNome nome, Sobrenome sobrenome, Email email, DataNascimento dataNascimento)
     {
-        return new Usuario
-        {
-            Id = Guid.NewGuid(),
-            Nome = nome,
-            Sobrenome = sobrenome,
-            Email = email,
-            DataNascimento = dataNascimento,
-            DataAtualizacao = DateTime.UtcNow,
-        };
+            Nome = nome;
+            Sobrenome = sobrenome;
+            Email = email;
+            DataNascimento = dataNascimento;
+            DataAtualizacao = DateTime.UtcNow;
     }
 
 }

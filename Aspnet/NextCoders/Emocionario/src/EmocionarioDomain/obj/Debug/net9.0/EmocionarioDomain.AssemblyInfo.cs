@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmocionarioDomain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39d2c7bf7d7d9e1f4f0d5c15cf5c8c2c4bf3e307")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e233a243ef56448f8acec056b89af1539f7e6990")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmocionarioDomain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmocionarioDomain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

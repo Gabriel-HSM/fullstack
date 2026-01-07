@@ -1,6 +1,6 @@
 namespace EmocionarioDomain.Usuarios.ValueObjects
 {
-    public readonly struct PrimeiroNome
+    public readonly record struct PrimeiroNome
     {
         public string Valor { get;}
 
