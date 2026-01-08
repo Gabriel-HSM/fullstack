@@ -1,0 +1,12 @@
+C:\Projetos\fullstack\Aspnet\NextCoders\Emocionario\src\EmocionarioDomain\bin\Debug\net9.0\EmocionarioDomain.deps.json
+C:\Projetos\fullstack\Aspnet\NextCoders\Emocionario\src\EmocionarioDomain\bin\Debug\net9.0\EmocionarioDomain.dll
+C:\Projetos\fullstack\Aspnet\NextCoders\Emocionario\src\EmocionarioDomain\bin\Debug\net9.0\EmocionarioDomain.pdb
+C:\Projetos\fullstack\Aspnet\NextCoders\Emocionario\src\EmocionarioDomain\obj\Debug\net9.0\EmocionarioDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\fullstack\Aspnet\NextCoders\Emocionario\src\EmocionarioDomain\obj\Debug\net9.0\EmocionarioDomain.AssemblyInfoInputs.cache
+C:\Projetos\fullstack\Aspnet\NextCoders\Emocionario\src\EmocionarioDomain\obj\Debug\net9.0\EmocionarioDomain.AssemblyInfo.cs
+C:\Projetos\fullstack\Aspnet\NextCoders\Emocionario\src\EmocionarioDomain\obj\Debug\net9.0\EmocionarioDomain.csproj.CoreCompileInputs.cache
+C:\Projetos\fullstack\Aspnet\NextCoders\Emocionario\src\EmocionarioDomain\obj\Debug\net9.0\EmocionarioDomain.sourcelink.json
+C:\Projetos\fullstack\Aspnet\NextCoders\Emocionario\src\EmocionarioDomain\obj\Debug\net9.0\EmocionarioDomain.dll
+C:\Projetos\fullstack\Aspnet\NextCoders\Emocionario\src\EmocionarioDomain\obj\Debug\net9.0\refint\EmocionarioDomain.dll
+C:\Projetos\fullstack\Aspnet\NextCoders\Emocionario\src\EmocionarioDomain\obj\Debug\net9.0\EmocionarioDomain.pdb
+C:\Projetos\fullstack\Aspnet\NextCoders\Emocionario\src\EmocionarioDomain\obj\Debug\net9.0\ref\EmocionarioDomain.dll
