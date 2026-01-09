@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmocionarioApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7aa5fc5e698746fee3c6a8c14aa62c7f810c87b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43f7033e36ed6fb54f27bccbe388378e1e056846")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmocionarioApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmocionarioApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2,7 +2,7 @@
 
 namespace EmocionarioDomain;
 
-public class Usuario
+public sealed class Usuario
 {
     public Guid Id { get; private set; }
     public PrimeiroNome Nome { get; private set; }

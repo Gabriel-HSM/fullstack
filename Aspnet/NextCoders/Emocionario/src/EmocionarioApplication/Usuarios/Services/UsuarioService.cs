@@ -5,6 +5,20 @@ using EmocionarioDomain.Usuarios.ValueObjects;
 
 namespace EmocionarioApplication.Usuarios.Services
 {
+
+    /// <summary>
+/// Implementação do serviço de aplicação para operações relacionadas a usuários.
+/// Orquestra a interação entre DTOs, entidades de domínio e o repositório.
+/// </summary>
+/// <remarks>
+/// Esta classe implementa a camada de aplicação seguindo os princípios de Clean Architecture:
+/// - Converte DTOs (dados primitivos) em Value Objects e Entidades de domínio
+/// - Aplica regras de negócio da aplicação (como validação de unicidade de e-mail)
+/// - Delega operações de persistência para o repositório
+/// - Mantém a separação entre a camada de apresentação e o domínio
+/// - Utiliza o padrão sealed para prevenir herança indesejada
+/// </remarks>
+
     public sealed class UsuarioService : IUsuarioService
     {
         private readonly IUsuarioRepository _usuarioRepository;
