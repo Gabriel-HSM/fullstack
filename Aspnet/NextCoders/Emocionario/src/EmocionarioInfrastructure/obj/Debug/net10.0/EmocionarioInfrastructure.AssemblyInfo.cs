@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmocionarioInfrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43f7033e36ed6fb54f27bccbe388378e1e056846")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a85af5252bc306bd0db92a4244c6f9fe0938572")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmocionarioInfrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmocionarioInfrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
