@@ -18,13 +18,7 @@
         .form-control::placeholder {
         color: #FFFFFF; 
         opacity: 1;
-        }
-
-        .circulos{
-            width: 10px;
-            height: 10px;
-            border-radius: 10px;
-            background-color: var(--CorBase3);
+        font-size: 0.67rem;
         }
 
         .font-size1{
@@ -41,11 +35,17 @@
             height: 2rem;
         }
 
+        .size-cabeçalho{
+            height: 3.5rem;
+        }
+
         .container-imagens-sm-size{
-            width: 140px;
+            width: 160px;
+            
         }
         .imagens-sm-size{
-            width: 130px;
+            width: 150px;
+            height: 100px;
         } 
 
         body{
@@ -56,22 +56,22 @@
 </head>
 <body>
     <!-- bloquear tamanho minimo pra que a responsividde permaneça -->
-    <nav class="navbar navbar-expand-md mb-1" style="background-color: var(--CorBase2);">
+    <nav class="navbar navbar-expand-md navbar-expand-lg" style="background-color: var(--CorBase2);">
         <div class="container-fluid">
             <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa-solid fa-bars" style="color: var(--CorFontePadrao);"></i>
             </button>
 
             <a class="navbar-brand" href="#">
-                <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" width="30" height="24">
+                <img src="Images/Logo-example.png">
             </a>
 
             <!-- Search bar -->
-             <div class="navbar-brand">
+             <div>
                  <form class="d-flex nav-item" role="search">
-                     <div class="rounded-3 container d-flex align-items-center" style="background-color: var(--CorBase1); height: 2rem; width: 15rem;">
-                         <i class="fa-solid fa-magnifying-glass" style="color: white;"></i>
-                         <input class="form-control form-control-xs rounded-1 ms-4 border-0 h-75" type="search" placeholder="Search" style="background-color: var(--CorBase3); color: var(--CorFontePadrao);"/>
+                     <div class="rounded-2 container d-flex align-items-center" style="background-color: var(--CorBase1); height: 1.2rem; width: 13.5rem;">
+                         <a class="fa-solid fa-magnifying-glass" style="color: white; text-decoration: none;"></a>
+                        <input class="form-control form-control-xs rounded-1 ms-3 border-0 h-75" type="search" placeholder="Search" style="background-color: var(--CorBase3); color: var(--CorFontePadrao); padding-bottom: 0.50rem;"/>
                      </div>
                  </form>
              </div>
@@ -96,14 +96,61 @@
         <!-- imagens Section -->
         <section>
             <div class="moldura container-fluid" style="background-color: var(--CorBase4); height: 5px;"></div>
-            <div id="imagens" style="background-color: var(--CorBase2); height: 155px;">
-                <div class="d-flex gap-2 justify-content-center">
-                    <div id="c-1" class="circulos"></div>
-                    <div id="c-2" class="circulos"></div>
-                    <div id="c-3" class="circulos"></div>
-                    <div id="c-4" class="circulos"></div>
+
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="width: 7px; height: 7px; border-radius: 50%; padding: 0; border: none;"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" style="width: 7px; height: 7px; border-radius: 50%; padding: 0; border: none;"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" style="width: 7px; height: 7px; border-radius: 50%; padding: 0; border: none;"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4" style="width: 7px; height: 7px; border-radius: 50%; padding: 0; border: none;"></button>
                 </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Images/nissa-example.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Four slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
+
+
+
+
+
+
+            
             <div class="moldura container-fluid" style="background-color: var(--CorBase4); height: 5px;"></div>
 
         </section>
@@ -150,120 +197,165 @@
 
         <!-- Content sections -->
         <section>
-            <div class="mx-2 mt-2 row d-flex gap-2  justify-content-center"> 
+            <div class="mx-2 mt-2 row d-flex gap-1  justify-content-center"> 
                 <div class="col-6 container-imagens-sm-size rounded-3 d-flex flex-column align-items-center" style="background-color: var(--CorBase1);">
                     <div class="imagens-sm-size rounded-3 m-1" style="background-color: var(--CorBase3);">
                         Imagem relacionada no tamanho "grande"
                     </div>
-                    <div>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
-                    </div>
+                        <div class="w-100">
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
+                        </div>
                 </div>
                 <div class="col-6 container-imagens-sm-size rounded-3 d-flex flex-column align-items-center" style="background-color: var(--CorBase1);">
                     <div class="imagens-sm-size rounded-3 m-1" style="background-color: var(--CorBase3);">
                         Imagem relacionada no tamanho "grande"
                     </div>
-                    <div>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
-                    </div>
-                </div>   
-                <div class="col-6 container-imagens-sm-size rounded-3 d-flex flex-column align-items-center" style="background-color: var(--CorBase1);">
-                    <div class="imagens-sm-size rounded-3 m-1" style="background-color: var(--CorBase3);">
-                        Imagem relacionada no tamanho "grande"
-                    </div>
-                    <div>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
-                    </div>
-                </div>   
-                <div class="col-6 container-imagens-sm-size rounded-3 d-flex flex-column align-items-center" style="background-color: var(--CorBase1);">
-                    <div class="imagens-sm-size rounded-3 m-1" style="background-color: var(--CorBase3);">
-                        Imagem relacionada no tamanho "grande"
-                    </div>
-                    <div>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
-                    </div>
-                </div>   
-                <div class="col-6 container-imagens-sm-size rounded-3 d-flex flex-column align-items-center" style="background-color: var(--CorBase1);">
-                    <div class="imagens-sm-size rounded-3 m-1" style="background-color: var(--CorBase3);">
-                        Imagem relacionada no tamanho "grande"
-                    </div>
-                    <div>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
-                    </div>
+                        <div class="w-100">
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
+                        </div>
                 </div>
                 <div class="col-6 container-imagens-sm-size rounded-3 d-flex flex-column align-items-center" style="background-color: var(--CorBase1);">
                     <div class="imagens-sm-size rounded-3 m-1" style="background-color: var(--CorBase3);">
                         Imagem relacionada no tamanho "grande"
                     </div>
-                    <div>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
-                    </div>
-                </div>   
+                        <div class="w-100">
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
+                        </div>
+                </div>
                 <div class="col-6 container-imagens-sm-size rounded-3 d-flex flex-column align-items-center" style="background-color: var(--CorBase1);">
                     <div class="imagens-sm-size rounded-3 m-1" style="background-color: var(--CorBase3);">
                         Imagem relacionada no tamanho "grande"
                     </div>
-                    <div>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
-                    </div>
-                </div>   
+                        <div class="w-100">
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
+                        </div>
+                </div>
                 <div class="col-6 container-imagens-sm-size rounded-3 d-flex flex-column align-items-center" style="background-color: var(--CorBase1);">
                     <div class="imagens-sm-size rounded-3 m-1" style="background-color: var(--CorBase3);">
                         Imagem relacionada no tamanho "grande"
                     </div>
-                    <div>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
-                    </div>
-                </div>   
+                        <div class="w-100">
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
+                        </div>
+                </div>
                 <div class="col-6 container-imagens-sm-size rounded-3 d-flex flex-column align-items-center" style="background-color: var(--CorBase1);">
                     <div class="imagens-sm-size rounded-3 m-1" style="background-color: var(--CorBase3);">
                         Imagem relacionada no tamanho "grande"
                     </div>
-                    <div>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
-                    </div>
-                </div>   
+                        <div class="w-100">
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
+                        </div>
+                </div>
                 <div class="col-6 container-imagens-sm-size rounded-3 d-flex flex-column align-items-center" style="background-color: var(--CorBase1);">
                     <div class="imagens-sm-size rounded-3 m-1" style="background-color: var(--CorBase3);">
                         Imagem relacionada no tamanho "grande"
                     </div>
-                    <div>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
-                    </div>
-                </div>   
+                        <div class="w-100">
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
+                        </div>
+                </div>
                 <div class="col-6 container-imagens-sm-size rounded-3 d-flex flex-column align-items-center" style="background-color: var(--CorBase1);">
                     <div class="imagens-sm-size rounded-3 m-1" style="background-color: var(--CorBase3);">
                         Imagem relacionada no tamanho "grande"
                     </div>
-                    <div>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
-                    </div>
-                </div>   
+                        <div class="w-100">
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
+                        </div>
+                </div>
                 <div class="col-6 container-imagens-sm-size rounded-3 d-flex flex-column align-items-center" style="background-color: var(--CorBase1);">
                     <div class="imagens-sm-size rounded-3 m-1" style="background-color: var(--CorBase3);">
                         Imagem relacionada no tamanho "grande"
                     </div>
-                    <div>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
-                        <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
+                        <div class="w-100">
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
+                        </div>
+                </div>
+                <div class="col-6 container-imagens-sm-size rounded-3 d-flex flex-column align-items-center" style="background-color: var(--CorBase1);">
+                    <div class="imagens-sm-size rounded-3 m-1" style="background-color: var(--CorBase3);">
+                        Imagem relacionada no tamanho "grande"
                     </div>
-                </div>   
+                        <div class="w-100">
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
+                        </div>
+                </div>
+                <div class="col-6 container-imagens-sm-size rounded-3 d-flex flex-column align-items-center" style="background-color: var(--CorBase1);">
+                    <div class="imagens-sm-size rounded-3 m-1" style="background-color: var(--CorBase3);">
+                        Imagem relacionada no tamanho "grande"
+                    </div>
+                        <div class="w-100">
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
+                        </div>
+                </div>
+                <div class="col-6 container-imagens-sm-size rounded-3 d-flex flex-column align-items-center" style="background-color: var(--CorBase1);">
+                    <div class="imagens-sm-size rounded-3 m-1" style="background-color: var(--CorBase3);">
+                        Imagem relacionada no tamanho "grande"
+                    </div>
+                        <div class="w-100">
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Nome: aaaaaaaaaaaaa</p>
+                            <p class="font-size1 m-0" style="color: var(--CorFontePadrao);">Valor:x.xxx.xxx</p>
+                        </div>
+                </div>
+                
+
+
+                
             </div>
         </section>
 
-         <footer class="mt-2" style="background-color: var(--CorBase2);">
-             a
+         <footer class="mt-2">
+             <div class="moldura2" style="background-color: var(--CorBase3);">
+                a
+             </div>
+             <div id="conteudo-footer" style="background-color: var(--CorBase2);">
+                <div class="container py-4 d-flex gap-2">
+
+                    <div class="row" style="color: var(--CorFontePadrao);">
+                        <div class="mb-3 me-3">
+                            <h5 style="color: var(--CorFontePadrao);">About</h5>
+                            <ul class="list-unstyled">
+                                <li>xxxxxxxxxxxx</li>
+                                <li>xxxxxxxx</li>
+                                <li>xxxxxxxxxxxx</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row" style="color: var(--CorFontePadrao);">
+                        <div class="mb-3 me-3 ">
+                            <h5 style="color: var(--CorFontePadrao);">Useful links</h5>
+                            <ul class="list-unstyled">
+                                <li>xxxxxxxxxxx</li>
+                                <li>xxxxxxx</li>
+                                <li>xxxxxxxxxx</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row" style="color: var(--CorFontePadrao);">
+                        <div class="mb-3 me-3 ms-3">
+                            <h5 style="color: var(--CorFontePadrao);">Contacts</h5>
+                            <ul class="list-unstyled">
+                                <li>GitHUb</li>
+                                <li>Linkedin</li>
+                                <li>Instagram</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+             </div>
          </footer>
     </main>
     
