@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+:root {
+    --CorFontePadrao: #FFFFFF;
+    --CorBase1: #121212;
+    --CorBase2: #191919;
+    --CorBase3: #353535;
+    --CorBase4: #3c3c3c;
+    --CorDanger: #ff1c1c;
+
+}
+
+.form-control::placeholder {
+color: #FFFFFF; 
+opacity: 1;
+font-size: 0.67rem;
+}
+
+.barraPesquisa{
+    height: 1.2rem;
+    width: 13rem;
+}
+
+.moldura{
+    height: 3px;
+}
+.moldura2{
+    height: 20px;
+}
+
+.circulo{
+    width: 7px !important;
+    height: 7px !important;
+    border-radius: 50%;
+    padding: 0%;
+    border: none;
+}
+
+.imagens-md-size{
+    height: 200px;
+    object-fit: cover;
+}
+
+.fa-size{
+    font-size: 0.9rem;
+}
+
+.fa-sizexs{
+    font-size: 0.7rem;
+}
+
+.font-size1{
+    font-size: 0.8rem;
+}
+
+.size-150h{
+    height: 1.50rem;
+}
+
+.filtros-selecionados-h{
+    min-height: 1rem;
+}
+
+.filtar-inner{
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 9rem;
+    height: 1.5rem;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+}
+
+.filtrar-btn{
+    width: 5rem;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.ordenar-div {
+    min-width: unset !important;
+    width: 6rem;
+
+}
+
+.ordernar-btn{
+    width: 5rem;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.ordernar-btn:hover {
+    filter: brightness(1.05);
+}
+
+.ordernar-btn:active {
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+    transform: translateY(2px);
+}
+
+
+.conteudo-footer{
+        box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+body{
+    background-color: var(--CorBase1);
+}
+
+/* grid de items, area de conteúdo */
+
+.lista-itens{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 0.75rem;
+    justify-content: center;
+    grid-auto-rows: minmax(150px, auto); /* base de altura para 1 'linha' */
+}
+
+.items{
+    grid-column: span 1;
+    grid-row: auto;
+}
+
+.item-expandido{
+    justify-content: center;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.itemNomeEPreco{
+    padding: 0.3rem 0rem 0.5rem 0rem;
+    color: var(--CorFontePadrao);
+    font-size: 0.85rem;
+}
+
+.itemText{
+    color: var(--CorFontePadrao);
+    font-size: 0.85rem;
+}
+
+/* não acompanhar a altura dos items ao lado */
+.items { align-self: flex-start; }
+
+.conteudoBotaoFechar{
+    color: var(--CorFontePadrao);
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0.75rem;
+    border: none;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+
+/* grid para md (desk e tablet) */
+@media (min-width: 768px) {
+    .barraPesquisa{
+        height: 2rem;
+        width: 15rem;
+    }
+
+    .lista-itens {
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: minmax(150px, auto); 
+    }
+
+    .item-expandido{
+        justify-content: center;
+        grid-column: span 2;
+            grid-row: span 2;
+    }
+
+    .itemNomeEPreco{
+        padding: 0.3rem 0rem 0.5rem 0rem;
+        color: var(--CorFontePadrao);
+        font-size: 1.2rem;
+    }
+
+    .itemText{
+    color: var(--CorFontePadrao);
+    font-size: 1.1rem;
+}
+
+.conteudoBotaoFechar{
+    color: var(--CorFontePadrao);
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    border: none;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    font-size: 2rem;
+}
+
+
+}
+
+
+/* animação */
+.item-abrir {
+    opacity: 0;
+    transform: scale(0.98);
+    animation: openCard 0.35s ease forwards;
+}
+
+
+@keyframes openCard {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
