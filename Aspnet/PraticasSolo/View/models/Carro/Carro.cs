@@ -1,10 +1,13 @@
+using models.valueObjects;
+using View.models.valueObjects;
+
 namespace View.models
 {
     public class Carro
     {
         public Guid Id { get; set; }
-        public string Nome { get; set; }
-        public double Preco { get; set; }
+        public CarroNome Nome { get; set; }
+        public CarroPreco Preco { get; set; }
         public string Marca { get; set; }
         public int Ano { get; set; }
         public string Chassis { get; set; }
@@ -16,5 +19,34 @@ namespace View.models
         public string Motor { get; set; }
         public string Popularidade { get; set; }
         
+        public Carro(
+            Guid id,
+            CarroNome nome,
+            CarroPreco preco,
+            string marca,
+            int ano,
+            string chassis,
+            DateOnly primeiraAparicao,
+            double ipva,
+            int unidades,
+            string curiosidade,
+            string pais,
+            string motor,
+            string popularidade)
+        {
+            Id = id;
+            Nome = nome;
+            Preco = preco;
+            Marca = marca;
+            Ano = ano;
+            Chassis = chassis;
+            PrimeiraAparicao = primeiraAparicao;
+            Ipva = ipva;
+            Unidades = unidades;
+            Curiosidade = curiosidade;
+            Pais = pais;
+            Motor = motor;
+            Popularidade = popularidade;
+        }
     }
 }
