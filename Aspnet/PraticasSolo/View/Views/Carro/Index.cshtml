@@ -47,7 +47,7 @@
                         <a class="nav-link active" aria-current="page" href="#" style="color: var(--CorFontePadrao);">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" style="color: var(--CorFontePadrao);">Features</a>
+                        <a class="nav-link" href="@Url.Action("Create", "Carro")" style="color: var(--CorFontePadrao);">Adicionar</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" style="color: var(--CorFontePadrao);">Pricing</a>
@@ -208,8 +208,19 @@
         <!-- Content sections -->
         <section class="mt-3">
             <div class="mx-2 mt-2 lista-itens"> 
+                @foreach (var item in Model){
+                     <div class="rounded-3 shadow items p-1" style="background-color: var(--CorBase2);">
+                        <img class="rounded-3 items-img items w-100 shadow" src="@item.Imagem" alt="@item.Nome">
+                        <div class="d-md-flex gap-2 itemNomeEPreco">
+                            <p class="m-0">@item.Nome</p>
+                            <p class="m-0">@item.Preco</p>
+                        </div>
+                        <!-- div que é preenchida dinamicamente -->
+                        <span class="detalhes-dinamicos"></span>
+                    </div>
+                }
 
-                <div class="rounded-3 shadow items item1 p-1" id="item1" style="background-color: var(--CorBase2);">
+                @* <div class="rounded-3 shadow items item1 p-1" id="item1" style="background-color: var(--CorBase2);">
                         <img class="rounded-3 items item1 w-100 shadow" src="Images/car-8136751_1920.jpg" value="item1" alt="modelo-tal">
                         <div class="d-md-flex gap-2 itemNomeEPreco">
                             <p class="m-0">SUBARU WXR</p>
@@ -217,77 +228,11 @@
                         </div>
                         <!-- div que é preenchida dinamicamente -->
                         <span id="item1-detalhesDinamicos"></span>
-                </div>
+                    </div> *@
 
-                <div class="rounded-3 shadow items item2 p-1" id="item2" style="background-color: var(--CorBase2);">
-                        <img class="rounded-3 items item2 w-100 shadow" src="Images/car-8136751_1920.jpg" value="item2" alt="modelo-tal">
-                        <div class="d-md-flex gap-2 itemNomeEPreco">
-                            <p class="m-0">SUBARU WXR</p>
-                            <p class="m-0"> R$ 309.000</p>
-                        </div>
-                        <!-- div que é preenchida dinamicamente -->
-                        <span id="item2-detalhesDinamicos"></span>
-                </div>
+               
 
-                <div class="rounded-3 shadow items item2 p-1" id="item3" style="background-color: var(--CorBase2);">
-                        <img class="rounded-3 items item2 w-100 shadow" src="Images/car-8136751_1920.jpg" value="item3" alt="modelo-tal">
-                        <div class="d-md-flex gap-2 itemNomeEPreco">
-                            <p class="m-0">SUBARU WXR</p>
-                            <p class="m-0"> R$ 309.000</p>
-                        </div>
-                        <!-- div que é preenchida dinamicamente -->
-                        <span id="item3-detalhesDinamicos"></span>
-                </div>
-
-                <div class="rounded-3 shadow items item2 p-1" id="item4" style="background-color: var(--CorBase2);">
-                        <img class="rounded-3 items item2 w-100 shadow" src="Images/car-8136751_1920.jpg" value="item4" alt="modelo-tal">
-                        <div class="d-md-flex gap-2 itemNomeEPreco">
-                            <p class="m-0">SUBARU WXR</p>
-                            <p class="m-0"> R$ 309.000</p>
-                        </div>
-                        <!-- div que é preenchida dinamicamente -->
-                        <span id="item4-detalhesDinamicos"></span>
-                </div>
                 
-                <div class="rounded-3 shadow items item2 p-1" id="item4" style="background-color: var(--CorBase2);">
-                        <img class="rounded-3 items item2 w-100 shadow" src="Images/car-8136751_1920.jpg" value="item4" alt="modelo-tal">
-                        <div class="d-md-flex gap-2 itemNomeEPreco">
-                            <p class="m-0">SUBARU WXR</p>
-                            <p class="m-0"> R$ 309.000</p>
-                        </div>
-                        <!-- div que é preenchida dinamicamente -->
-                        <span id="item4-detalhesDinamicos"></span>
-                </div>
-                
-                <div class="rounded-3 shadow items item2 p-1" id="item4" style="background-color: var(--CorBase2);">
-                        <img class="rounded-3 items item2 w-100 shadow" src="Images/car-8136751_1920.jpg" value="item4" alt="modelo-tal">
-                        <div class="d-md-flex gap-2 itemNomeEPreco">
-                            <p class="m-0">SUBARU WXR</p>
-                            <p class="m-0"> R$ 309.000</p>
-                        </div>
-                        <!-- div que é preenchida dinamicamente -->
-                        <span id="item4-detalhesDinamicos"></span>
-                </div>
-                
-                <div class="rounded-3 shadow items item2 p-1" id="item4" style="background-color: var(--CorBase2);">
-                        <img class="rounded-3 items item2 w-100 shadow" src="Images/car-8136751_1920.jpg" value="item4" alt="modelo-tal">
-                        <div class="d-md-flex gap-2 itemNomeEPreco">
-                            <p class="m-0">SUBARU WXR</p>
-                            <p class="m-0"> R$ 309.000</p>
-                        </div>
-                        <!-- div que é preenchida dinamicamente -->
-                        <span id="item4-detalhesDinamicos"></span>
-                </div>
-
-                <div class="rounded-3 shadow items item2 p-1" id="item4" style="background-color: var(--CorBase2);">
-                        <img class="rounded-3 items item2 w-100 shadow" src="Images/car-8136751_1920.jpg" value="item4" alt="modelo-tal">
-                        <div class="d-md-flex gap-2 itemNomeEPreco">
-                            <p class="m-0">SUBARU WXR</p>
-                            <p class="m-0"> R$ 309.000</p>
-                        </div>
-                        <!-- div que é preenchida dinamicamente -->
-                        <span id="item4-detalhesDinamicos"></span>
-                </div>
      
             </div>
         </section>
