@@ -1,20 +1,23 @@
 using Microsoft.AspNetCore.Mvc;
-using View.Data;
+using View.Data.services;
 using View.models;
 
 namespace MyApp.Namespace
 {
     public class CarroController : Controller
     {
-        //Apenas leitura do contexto do bd
-        private readonly ProjetoModeloAppContext _context;
-        public CarroController(ProjetoModeloAppContext contexto)
+        //Por boa prática, não se deve instanciar o contexto diretamente na controller, mas sim usar a interface do serviço. (Injeção de dependência) pois a interface possui os métodos necessários.
+        private readonly ICarroService _carroService;
+        public CarroController(ICarroService carroService)
         {
-            _context = contexto;
+            _carroService = carroService;
         }
-        public ActionResult Index()
+
+        //Assync porque pode demorar, e se demorar pode parar de funcionar, então isso pode permitir que tarefas funcionem em segundo plano sem que a thread principal pare.
+        //await porque ele vai aguardar a tarefa ser concluída antes de continuar a execução do código.
+        public async Task<ActionResult> Index()
         {
-            var carros = _context.Carro.ToList();
+            var carros = await _carroService.ObterTodos();
             return View(carros);
         }
 
@@ -26,38 +29,47 @@ namespace MyApp.Namespace
 
         //Metodo que cria no banco de dados
         [HttpPost]
-        public IActionResult Create(Carro carro, IFormFile imagemArquivo)
+        public async Task<IActionResult> Create(Carro carro, IFormFile imagemArquivo)
         {
-            if (!ModelState.IsValid)
-                return View(carro);
-
-            if (imagemArquivo != null && imagemArquivo.Length > 0)
+            if (ModelState.IsValid)
             {
-                var pastaUploads = Path.Combine(
-                    Directory.GetCurrentDirectory(),
-                    "wwwroot/uploads"
-                );
-
-                if (!Directory.Exists(pastaUploads))
-                    Directory.CreateDirectory(pastaUploads);
-
-                var nomeArquivo = Guid.NewGuid() + Path.GetExtension(imagemArquivo.FileName);
-                var caminhoCompleto = Path.Combine(pastaUploads, nomeArquivo);
-
-                using (var stream = new FileStream(caminhoCompleto, FileMode.Create))
-                {
-                    imagemArquivo.CopyTo(stream);
-                }
-
-                carro.Imagem = "uploads/" + nomeArquivo; // isso vai pro banco
+                await _carroService.Add(carro, imagemArquivo);
+                return RedirectToAction("Index");
             }
+                return View(carro);
+        }
 
-            carro.Id = Guid.NewGuid();
-            _context.Carro.Add(carro);
-            _context.SaveChanges();
-
+        [HttpDelete]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            await _carroService.Delete(id);
             return RedirectToAction("Index");
         }
+        [HttpGet]
+        public async Task<IActionResult> Edit(Guid id)
+        {
+            var carro = await _carroService.ObterPorId(id);
+
+            if (carro == null)
+                return NotFound();
+
+            return View(carro);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(Guid id, Carro carroAtualizado, IFormFile? imagemArquivo)
+        {
+            if (ModelState.IsValid)
+            {
+                await _carroService.Edit(id, carroAtualizado, imagemArquivo);
+                return RedirectToAction("Index");
+            }
+            Console.WriteLine("Model state is invalid.");
+                return View(carroAtualizado);
+        }
+                
+
+        
 
     }
 }

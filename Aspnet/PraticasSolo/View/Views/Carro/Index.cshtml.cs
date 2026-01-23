@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-
 namespace View.Views.Carro
 {
     public class Index : PageModel
