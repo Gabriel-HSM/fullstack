@@ -7,10 +7,19 @@ SIXlabors
 
 Todo
 Ajustar view de criar 
-criar botão js de editar na esquerda e sua função
+criar botão js de editar na esquerda e sua função {{feito}}
 criar botão js de deletar item (com pergunta você tem certeza?) {{feito}}
-Atualizar dados pra que fiquem dinâmicos, (com dados do banco)
-Fazer o CRUD completo de atualizar, deletar, adicionar:
+Fazer o CRUD completo de atualizar, deletar, adicionar: {{feito}}
+deixar a ux melhor no index (em relação a dois clique e deixar  item em 1 lugar) {{feito}}
+
+Atualizar dados pra que fiquem dinâmicos, (com dados do banco) {{feito}}
+Adicionar paginação
+Pesquisar tem que funcionar
+Nav pra direita
+alterar imputs para que fiquem com campos salvos corretamente (money {{feito}})
+alterar tabelas pra que os campos venham (pre-preenchidos) (perguntar ao chat sobre isso) atualizar model pra que valide certo.
+
+
 
 
 adicionar por tipo, casolina, disel etanol

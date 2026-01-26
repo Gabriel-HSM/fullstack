@@ -1,15 +1,19 @@
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace View.models
 {
     public class Carro
     {
         public Guid Id { get; set; }
         public string Nome { get; set; } = null!;
-        public double? Preco { get; set; }
+        [Column(TypeName = "decimal(18,2)")]
+        public decimal Preco { get; set; }
         public string? Marca { get; set; }
         public int? Ano { get; set; }
         public string? Chassis { get; set; }
         public DateOnly? PrimeiraAparicao { get; set; }
-        public double? Ipva { get; set; }
+        [Column(TypeName = "decimal(18,2)")]
+        public decimal Ipva { get; set; }
         public int? Unidades { get; set; }
         public string? Curiosidade { get; set; }
         public string? Pais { get; set; }
@@ -21,12 +25,12 @@ namespace View.models
         public Carro(
             Guid id,
             string nome,
-            double preco,
+            decimal preco,
             string marca,
             int ano,
             string chassis,
             DateOnly primeiraAparicao,
-            double ipva,
+            decimal ipva,
             int unidades,
             string curiosidade,
             string pais,

@@ -44,7 +44,14 @@ document.querySelectorAll('.items').forEach(function(element){
         //PASSADO POR DATA ID LÀ NA VIEW
         const itemId = item.dataset.id;
 
+        
+
         if(!item) return;
+
+        if (item.classList.contains('item-expandido')){
+            //Fecha o item
+            item.classList.remove('item-expandido');
+        }
 
             item.classList.toggle('item-expandido');
 
@@ -61,12 +68,29 @@ document.querySelectorAll('.items').forEach(function(element){
             //Div dinamica de mais informações
             const itemDetalhesDinamicos = item.querySelector('.detalhes-dinamicos')
 
+            //Itens do texto dinâmico
+            const nome = item.dataset.nome;
+            const preco = item.dataset.preco;
+            const marca = item.dataset.marca;
+            const ano = item.dataset.ano;
+            const chassis = item.dataset.chassis;
+            const primeiraAparicao = item.dataset.primeiraAparicao;
+            const ipva = item.dataset.ipva;
+            const unidadesMundo = item.dataset.unidades;
+            const curiosidade = item.dataset.curiosidade;
+            const pais = item.dataset.pais;
+            const motor = item.dataset.motor;
+
+
             itemDetalhesDinamicos.classList.add('itemText');
             itemDetalhesDinamicos.innerHTML = `
-                <p class="m-0">@item.Nome ano xxxx chasis xxxxxxyyy fabricado por xxxxxxxxxxxxxx. Primeira aparição foi em xxxx no não sei o que. Quem pode ter é assim e assado, IPVA é x e y no país de origem (xxxx IPVA é de xy), mas no Brasil é assim e assado. X unidade no mundo.
-
-                curisosidade: lampada tal som tal não sei 
-                o que lá valor x e y </p>
+                <p class="m-0">${nome} foi fabricado no ano ${ano} custando cerca de R$ ${parseFloat(preco).toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}, possui o chassis do tipo ${chassis}, o responsável pela sua fabricado foi a(o) ${marca}. Sua primeira aparição foi em ${primeiraAparicao}.
+                No Brasil seu IPVA mais caro custa cerca de R$ ${parseFloat(ipva).toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})} e possui ${unidadesMundo} fabricadas. Ele foi fabricado no(a) ${pais} e possui um motor do tipo ${motor}.
+                </p>
+                <br/>
+                <p class="mt-3 bold">
+                CURIOSIDADES: ${curiosidade}
+                </p>
             `;
 
             //Botões de ação deletar, editar e fechar voltando ao tamanho ao original
@@ -116,8 +140,6 @@ document.querySelectorAll('.items').forEach(function(element){
                             alert('Erro ao carregar a página de edição.');
                         }
                     })
-
-
 
                 });
 

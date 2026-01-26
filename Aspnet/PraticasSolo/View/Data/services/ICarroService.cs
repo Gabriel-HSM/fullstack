@@ -8,7 +8,7 @@ namespace View.Data.services
         Task Add(Carro carro, IFormFile imagemArquivo);
         Task Delete(Guid id);
         Task<Carro> ObterPorId(Guid id);
-        Task Edit(Guid id, Carro carro, IFormFile imagemArquivo);
+        Task Edit(Guid id, Carro carro, IFormFile? imagemArquivo);
         
     }
 }

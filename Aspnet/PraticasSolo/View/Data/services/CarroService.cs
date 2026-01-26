@@ -15,6 +15,7 @@ namespace View.Data.services
         public async Task Add(Carro carro, IFormFile imagemArquivo)
         {
 
+            //Imagem não pode ser nula no add
             if (imagemArquivo != null)
             {
                 carro.Imagem = await _imagemService.SalvarImagemAsync(imagemArquivo);

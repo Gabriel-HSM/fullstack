@@ -45,6 +45,7 @@ namespace MyApp.Namespace
             await _carroService.Delete(id);
             return RedirectToAction("Index");
         }
+
         [HttpGet]
         public async Task<IActionResult> Edit(Guid id)
         {
@@ -65,7 +66,8 @@ namespace MyApp.Namespace
                 return RedirectToAction("Index");
             }
             Console.WriteLine("Model state is invalid.");
-                return View(carroAtualizado);
+            return View(carroAtualizado);
+            
         }
                 
 

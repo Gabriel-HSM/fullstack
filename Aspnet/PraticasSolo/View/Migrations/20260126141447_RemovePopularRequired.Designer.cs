@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using View.Data;
 
@@ -11,9 +12,11 @@ using View.Data;
 namespace PraticasSolo.Migrations
 {
     [DbContext(typeof(ProjetoModeloAppContext))]
-    partial class ProjetoModeloAppContextModelSnapshot : ModelSnapshot
+    [Migration("20260126141447_RemovePopularRequired")]
+    partial class RemovePopularRequired
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -40,8 +43,8 @@ namespace PraticasSolo.Migrations
                     b.Property<string>("Imagem")
                         .HasColumnType("longtext");
 
-                    b.Property<decimal>("Ipva")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<double?>("Ipva")
+                        .HasColumnType("double");
 
                     b.Property<string>("Marca")
                         .HasColumnType("longtext");
@@ -59,8 +62,8 @@ namespace PraticasSolo.Migrations
                     b.Property<string>("Popularidade")
                         .HasColumnType("longtext");
 
-                    b.Property<decimal>("Preco")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<double?>("Preco")
+                        .HasColumnType("double");
 
                     b.Property<DateOnly?>("PrimeiraAparicao")
                         .HasColumnType("date");

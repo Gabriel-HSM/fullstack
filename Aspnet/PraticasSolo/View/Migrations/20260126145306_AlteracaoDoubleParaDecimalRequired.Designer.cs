@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using View.Data;
 
@@ -11,9 +12,11 @@ using View.Data;
 namespace PraticasSolo.Migrations
 {
     [DbContext(typeof(ProjetoModeloAppContext))]
-    partial class ProjetoModeloAppContextModelSnapshot : ModelSnapshot
+    [Migration("20260126145306_AlteracaoDoubleParaDecimalRequired")]
+    partial class AlteracaoDoubleParaDecimalRequired
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -41,7 +44,7 @@ namespace PraticasSolo.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<decimal>("Ipva")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(65,30)");
 
                     b.Property<string>("Marca")
                         .HasColumnType("longtext");
@@ -60,7 +63,7 @@ namespace PraticasSolo.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<decimal>("Preco")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(65,30)");
 
                     b.Property<DateOnly?>("PrimeiraAparicao")
                         .HasColumnType("date");
