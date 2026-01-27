@@ -28,7 +28,6 @@ namespace View.models
             Guid id,
             string nome,
             decimal preco,
-            string marcaAntiga,
             int ano,
             string chassis,
             DateOnly primeiraAparicao,
@@ -36,7 +35,6 @@ namespace View.models
             int unidades,
             string curiosidade,
             string pais,
-            string motorAntigo,
             string popularidade,
             string imagem)
         {
