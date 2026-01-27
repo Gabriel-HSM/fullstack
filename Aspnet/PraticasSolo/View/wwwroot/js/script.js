@@ -171,7 +171,7 @@ document.querySelectorAll('.items').forEach(function(element){
             }
 
         // move pro topo
-        item.parentElement.prepend(item);
+        // item.parentElement.prepend(item);
     });
 });
     

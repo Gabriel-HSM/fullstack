@@ -15,15 +15,17 @@ namespace MyApp.Namespace
 
         //Assync porque pode demorar, e se demorar pode parar de funcionar, então isso pode permitir que tarefas funcionem em segundo plano sem que a thread principal pare.
         //await porque ele vai aguardar a tarefa ser concluída antes de continuar a execução do código.
-        public async Task<ActionResult> Index()
+        public async Task<ActionResult> Index(int page = 1, int pageSize = 12)
         {
-            var carros = await _carroService.ObterTodos();
+            var carros = await _carroService.ObterPaginadoAsync(page, pageSize);
             return View(carros);
         }
 
         //View da página de Criar
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
+            ViewBag.Marcas = await _carroService.ObterTodasMarcas();
+            ViewBag.Motores = await _carroService.ObterTodosMotores();
             return View();
         }
 
@@ -50,6 +52,8 @@ namespace MyApp.Namespace
         public async Task<IActionResult> Edit(Guid id)
         {
             var carro = await _carroService.ObterPorId(id);
+            ViewBag.Marcas = await _carroService.ObterTodasMarcas();
+            ViewBag.Motores = await _carroService.ObterTodosMotores();
 
             if (carro == null)
                 return NotFound();
@@ -69,9 +73,6 @@ namespace MyApp.Namespace
             return View(carroAtualizado);
             
         }
-                
-
-        
 
     }
 }

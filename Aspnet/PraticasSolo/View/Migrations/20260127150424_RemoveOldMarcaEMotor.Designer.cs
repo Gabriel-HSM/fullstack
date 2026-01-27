@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using View.Data;
 
@@ -11,9 +12,11 @@ using View.Data;
 namespace PraticasSolo.Migrations
 {
     [DbContext(typeof(ProjetoModeloAppContext))]
-    partial class ProjetoModeloAppContextModelSnapshot : ModelSnapshot
+    [Migration("20260127150424_RemoveOldMarcaEMotor")]
+    partial class RemoveOldMarcaEMotor
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

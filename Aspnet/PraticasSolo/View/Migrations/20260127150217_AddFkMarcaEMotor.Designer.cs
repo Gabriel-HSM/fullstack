@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using View.Data;
 
@@ -11,9 +12,11 @@ using View.Data;
 namespace PraticasSolo.Migrations
 {
     [DbContext(typeof(ProjetoModeloAppContext))]
-    partial class ProjetoModeloAppContextModelSnapshot : ModelSnapshot
+    [Migration("20260127150217_AddFkMarcaEMotor")]
+    partial class AddFkMarcaEMotor
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -43,8 +46,14 @@ namespace PraticasSolo.Migrations
                     b.Property<decimal>("Ipva")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<string>("MarcaAntiga")
+                        .HasColumnType("longtext");
+
                     b.Property<int?>("MarcaId")
                         .HasColumnType("int");
+
+                    b.Property<string>("MotorAntigo")
+                        .HasColumnType("longtext");
 
                     b.Property<int?>("MotorId")
                         .HasColumnType("int");

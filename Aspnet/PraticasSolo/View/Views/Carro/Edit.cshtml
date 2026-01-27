@@ -64,8 +64,13 @@
                              <input asp-for="Preco" type="text" placeholder="R$ 0,00" step="0.01" class="form-control money" />
                         </div>
                         <div class="col-6 shadow">
-                            <label asp-for="Marca" class="form-label">Marca</label>
-                            <input asp-for="Marca" class="form-control" />
+                            <label asp-for="MarcaId" class="form-label">Marca</label>
+                            <select asp-for="MarcaId" class="form-select">
+                                @foreach (var marca in ViewBag.Marcas)
+                                {
+                                    <option value="@marca.Id">@marca.Nome</option>
+                                }
+                            </select>
                         </div>
                         <div class="col-6 shadow">
                             <label asp-for="Ano" class="form-label">Ano de lançamento</label>
@@ -89,7 +94,14 @@
                         </div>
                         <div class="col-4 shadow">
                             <label asp-for="Motor" class="form-label">Motor</label>
-                            <input asp-for="Motor" class="form-control" />
+                            <select asp-for="MotorId" class="form-select">
+                                @foreach (var motor in ViewBag.Motores)
+                                {
+                                    <option value="@motor.Id">
+                                        @motor.Tipo - @motor.Potencia
+                                    </option>
+                                }
+                            </select>
                         </div>
                         <div class="col-4 shadow">
                             <label asp-for="Pais" class="form-label">Pais</label>

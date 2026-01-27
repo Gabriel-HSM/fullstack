@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using View.Data;
 
@@ -11,9 +12,11 @@ using View.Data;
 namespace PraticasSolo.Migrations
 {
     [DbContext(typeof(ProjetoModeloAppContext))]
-    partial class ProjetoModeloAppContextModelSnapshot : ModelSnapshot
+    [Migration("20260127142928_TabelaMarcasEMotores")]
+    partial class TabelaMarcasEMotores
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -43,11 +46,11 @@ namespace PraticasSolo.Migrations
                     b.Property<decimal>("Ipva")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int?>("MarcaId")
-                        .HasColumnType("int");
+                    b.Property<string>("Marca")
+                        .HasColumnType("longtext");
 
-                    b.Property<int?>("MotorId")
-                        .HasColumnType("int");
+                    b.Property<string>("Motor")
+                        .HasColumnType("longtext");
 
                     b.Property<string>("Nome")
                         .IsRequired()
@@ -70,14 +73,10 @@ namespace PraticasSolo.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("MarcaId");
-
-                    b.HasIndex("MotorId");
-
                     b.ToTable("Carro");
                 });
 
-            modelBuilder.Entity("View.models.Marca", b =>
+            modelBuilder.Entity("View.models.Marca.Marca", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -94,7 +93,7 @@ namespace PraticasSolo.Migrations
                     b.ToTable("Marcas");
                 });
 
-            modelBuilder.Entity("View.models.Motor", b =>
+            modelBuilder.Entity("View.models.Motor.Motor", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -117,21 +116,6 @@ namespace PraticasSolo.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Motores");
-                });
-
-            modelBuilder.Entity("View.models.Carro", b =>
-                {
-                    b.HasOne("View.models.Marca", "Marca")
-                        .WithMany()
-                        .HasForeignKey("MarcaId");
-
-                    b.HasOne("View.models.Motor", "Motor")
-                        .WithMany()
-                        .HasForeignKey("MotorId");
-
-                    b.Navigation("Marca");
-
-                    b.Navigation("Motor");
                 });
 #pragma warning restore 612, 618
         }

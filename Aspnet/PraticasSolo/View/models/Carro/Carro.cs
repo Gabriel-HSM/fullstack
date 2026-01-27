@@ -8,7 +8,10 @@ namespace View.models
         public string Nome { get; set; } = null!;
         [Column(TypeName = "decimal(18,2)")]
         public decimal Preco { get; set; }
-        public string? Marca { get; set; }
+        public int? MarcaId { get; set; }
+        public Marca? Marca { get; set; }
+        public int? MotorId { get; set; }
+        public Motor? Motor { get; set; }
         public int? Ano { get; set; }
         public string? Chassis { get; set; }
         public DateOnly? PrimeiraAparicao { get; set; }
@@ -17,7 +20,6 @@ namespace View.models
         public int? Unidades { get; set; }
         public string? Curiosidade { get; set; }
         public string? Pais { get; set; }
-        public string? Motor { get; set; }
         public string? Popularidade { get; set; }
         public string? Imagem { get; set; }
         
@@ -26,7 +28,7 @@ namespace View.models
             Guid id,
             string nome,
             decimal preco,
-            string marca,
+            string marcaAntiga,
             int ano,
             string chassis,
             DateOnly primeiraAparicao,
@@ -34,14 +36,13 @@ namespace View.models
             int unidades,
             string curiosidade,
             string pais,
-            string motor,
+            string motorAntigo,
             string popularidade,
             string imagem)
         {
             Id = id;
             Nome = nome;
             Preco = preco;
-            Marca = marca;
             Ano = ano;
             Chassis = chassis;
             PrimeiraAparicao = primeiraAparicao;
@@ -49,7 +50,6 @@ namespace View.models
             Unidades = unidades;
             Curiosidade = curiosidade;
             Pais = pais;
-            Motor = motor;
             Popularidade = popularidade;
             Imagem = imagem;
         }

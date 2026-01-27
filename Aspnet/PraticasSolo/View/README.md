@@ -13,11 +13,12 @@ Fazer o CRUD completo de atualizar, deletar, adicionar: {{feito}}
 deixar a ux melhor no index (em relação a dois clique e deixar  item em 1 lugar) {{feito}}
 
 Atualizar dados pra que fiquem dinâmicos, (com dados do banco) {{feito}}
-Adicionar paginação
+Adicionar paginação {{feito}}
 Pesquisar tem que funcionar
 Nav pra direita
 alterar imputs para que fiquem com campos salvos corretamente (money {{feito}})
-alterar tabelas pra que os campos venham (pre-preenchidos) (perguntar ao chat sobre isso) atualizar model pra que valide certo.
+alterar tabelas pra que os campos venham (pre-preenchidos) {{feito}} 
+atualizar model pra que valide certo.
 
 
 
@@ -35,10 +36,7 @@ mapearservice
 integrar com banco 
 ajustar a imagem automaticamente 
 adicionar favoritos
-
-
-
-macher no position
+figma
 
 removido campo popularidade 
 
