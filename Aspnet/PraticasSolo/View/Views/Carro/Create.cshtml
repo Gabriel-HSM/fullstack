@@ -63,7 +63,12 @@
                         </div>
                         <div class="col-6 col-md-3  shadow">
                             <label asp-for="Marca" class="form-label">Marca</label>
-                            <input asp-for="Marca" class="form-control" />
+                            <select asp-for="MarcaId" class="form-select">
+                                @foreach (var marca in ViewBag.Marcas)
+                                {
+                                    <option value="@marca.Id">@marca.Nome</option>
+                                }
+                            </select>
                         </div>
                         <div class="col-6 col-md-4 shadow">
                             <label asp-for="Ano" class="form-label">Ano de lançamento</label>
@@ -79,15 +84,22 @@
                         </div>
                         <div class="col-6 col-md-3 shadow">
                             <label asp-for="Ipva" class="form-label">Valor do IPVA</label>
-                            <input asp-for="Ipva" class="form-control" />
+                            <input asp-for="Ipva" type="text" placeholder="R$ 0,00" step="0.01" class="form-control money" />
                         </div>
                         <div class="col-4 col-md-3 shadow">
                             <label asp-for="Unidades" class="form-label">Unidades</label>
-                            <input asp-for="Unidades" class="form-control" />
+                            <input asp-for="Unidades" placeholder="0,00" type="number" class="form-control" />
                         </div>
                         <div class="col-4 col-md-3 shadow">
                             <label asp-for="Motor" class="form-label">Motor</label>
-                            <input asp-for="Motor" class="form-control" />
+                            <select asp-for="MotorId" class="form-select">
+                                @foreach (var motor in ViewBag.Motores)
+                                {
+                                    <option value="@motor.Id">
+                                        @motor.Tipo - @motor.Potencia
+                                    </option>
+                                }
+                            </select>
                         </div>
                         <div class="col-4 col-md-3 shadow">
                             <label asp-for="Pais" class="form-label">Pais</label>
@@ -102,7 +114,10 @@
                             <img class="preview" src="" alt="Pré-visualização da imagem" id="imagemPreview" />
                             <input type="file" name="imagemArquivo" class="form-control" id="imagemInput" />
                         </div>
-                        <button type="submit" class="btn btn-primary">Adicionar</button>
+                        <div class="m-0 row justify-content-between justify-content-md-center gap-2 mt-3">
+                            <button type="submit" class="btn btn-primary col-5 col-md-12">Adicionar</button>
+                            <a href="@Url.Action("Index", "Carro")" class="btn btn-secondary col-5 col-md-12">Voltar</a>
+                        </div>
                     </form>
                 </fieldset>
             </div>  

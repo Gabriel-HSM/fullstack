@@ -125,56 +125,65 @@
                         Filtros
                     </button>
                     <!-- formulario de filtros -->
-                    <form id="filtro-dropdown" >
-                        
-                        <div class="dropdown-menu" style="background-color: var(--CorBase4); color: var(--CorFontePadrao);">
-                            <ul class="list-unstyled d-flex flex-column mb-2">
-                                <li class="ms-1 my-1">
-                                    <i class="fa-solid fa-earth-americas"></i>
-                                    <label class="filtar-inner" style="background-color: var(--CorBase3);">
-                                        <input type="checkbox" name="filtrosAdd[]" value="local"> Local
-                                    </label>
+                    <form id="filtro-dropdown">
+                        <div class="dropdown-menu" style="background-color: var(--CorBase4); color: var(--CorFontePadrao); min-width: 300px; padding: 1rem;">
+                            <ul class="list-unstyled d-flex flex-column gap-2 mb-3">
+                                <li class="form-label small fw-bold mb-2 d-block">
+                                    <i class="fa-solid fa-car-side"></i> Nome
+                                    <input type="text" class="form-control form-control-sm" name="nome" placeholder="Digite o nome..." style="background-color: var(--CorBase3); border-color: var(--CorBase2); color: var(--CorFontePadrao);">
                                 </li>
-                                <li class="ms-1 my-1">
-                                    <i class="fa-solid fa-registered"></i>
-                                    <label class="filtar-inner" style="background-color: var(--CorBase3);">
-                                        <input type="checkbox" name="filtrosAdd[]" value="modelo"> Modelo
+                                @* <li>
+                                    <label class="form-label small fw-bold mb-2 d-block">
+                                        <i class="fa-solid fa-earth-americas"></i> País
                                     </label>
-                                </li>
-                                <li class="ms-1 my-1">
-                                    <i class="fa-solid fa-calendar"></i>
-                                    <label class="filtar-inner" style="background-color: var(--CorBase3);">
-                                        <input type="checkbox" name="filtrosAdd[]" value="ano"> Ano
+                                    <input type="text" class="form-control form-control-sm" name="pais" placeholder="Digite o país..." style="background-color: var(--CorBase3); border-color: var(--CorBase2); color: var(--CorFontePadrao);">
+                                </li> *@
+                                <li>
+                                    <label class="form-label small fw-bold mb-2 d-block">
+                                        <i class="fa-solid fa-registered"></i> Marca
                                     </label>
+                                    <select class="form-control form-control-sm" name="marca" style="background-color: var(--CorBase3); border-color: var(--CorBase2); color: var(--CorFontePadrao);">
+                                        <option value="">Selecione a marca...</option>
+                                        @foreach (var marca in ViewBag.Marcas) {
+                                            <option value="@marca.Id">@marca.Nome</option>
+                                        }
+                                    </select>
                                 </li>
-                                <li class="ms-1 my-1">
-                                    <i class="fa-solid fa-car"></i>
-                                    <label class="filtar-inner" style="background-color: var(--CorBase3);">
-                                        <input type="checkbox" name="filtrosAdd[]" value="chasis"> Chasis
+                                @* <li>
+                                    <label class="form-label small fw-bold mb-2 d-block">
+                                        <i class="fa-solid fa-calendar"></i> Ano
                                     </label>
-                                </li>
-                                <li class="ms-1 my-1">
-                                    <i class="fa-solid fa-car-battery"></i>
-                                    <label class="filtar-inner" style="background-color: var(--CorBase3);">
-                                        <input type="checkbox" name="filtrosAdd[]" value="motor"> Motor
+                                    <input type="number" class="form-control form-control-sm" name="ano" placeholder="Digite o ano..." style="background-color: var(--CorBase3); border-color: var(--CorBase2); color: var(--CorFontePadrao);">
+                                </li> *@
+                                @* <li>
+                                    <label class="form-label small fw-bold mb-2 d-block">
+                                        <i class="fa-solid fa-car"></i> Chassis
                                     </label>
-                                </li>
-                                <li class="ms-1 my-1">
-                                    <i class="fa-solid fa-dollar-sign"></i>
-                                    <label class="filtar-inner" style="background-color: var(--CorBase3);">
-                                        <input type="checkbox" name="filtrosAdd[]" value="preco"> Preço
+                                    <input type="text" class="form-control form-control-sm" name="chassis" placeholder="Digite o chassis..." style="background-color: var(--CorBase3); border-color: var(--CorBase2); color: var(--CorFontePadrao);">
+                                </li> *@
+                                <li>
+                                    <label class="form-label small fw-bold mb-2 d-block">
+                                        <i class="fa-solid fa-car-battery"></i> Motor
                                     </label>
+                                    <select class="form-control form-control-sm" name="motor" style="background-color: var(--CorBase3); border-color: var(--CorBase2); color: var(--CorFontePadrao);">
+                                        <option value="">Selecione o motor...</option>
+                                        @foreach (var motor in ViewBag.Motores) {
+                                            <option value="@motor.Id">@motor.Tipo</option>
+                                        }
+                                    </select>
                                 </li>
-                                <li class="ms-1 mt-1">
-                                    <i class="fa-solid fa-star"></i>
-                                    <label class="filtar-inner" style="background-color: var(--CorBase3);">
-                                        <input type="checkbox" name="filtrosAdd[]" value="popularidade"> Popularidade
+                                @* <li>
+                                    <label class="form-label small fw-bold mb-2 d-block">
+                                        <i class="fa-solid fa-dollar-sign"></i> Preço
                                     </label>
-                                </li>
+                                    <input type="number" class="form-control form-control-sm" name="preco" placeholder="Digite o preço..." style="background-color: var(--CorBase3); border-color: var(--CorBase2); color: var(--CorFontePadrao);">
+                                </li> *@
                             </ul>
                             <div class="d-flex justify-content-center gap-2">
-                                <button class="btn mx-1 filtrar-btn" style="color: var(--CorFontePadrao); background-color: var(--CorBase3);" type="submit">Filtrar</button>
-                                <button class="btn filtrar-btn me-1" id="filtros-remove" style="background-color: var(--CorDanger);"><i class="fa-solid fa-filter-circle-xmark"></i></button>
+                                <button class="btn btn-sm" style="color: var(--CorFontePadrao); background-color: var(--CorBase3); border: 1px solid var(--CorBase2);" type="submit">Filtrar</button>
+                                <button class="btn btn-sm" id="filtros-remove" style="background-color: var(--CorDanger); color: white; border: none;">
+                                    <i class="fa-solid fa-filter-circle-xmark"></i>
+                                </button>
                             </div>
                         </div>
                     </form>
@@ -213,7 +222,7 @@
                      <div class="rounded-3 shadow items p-1" style="background-color: var(--CorBase2);" data-id="@item.Id"
                      data-nome="@item.Nome"
                      data-preco="@item.Preco"
-                     data-marca="@item.Marca.Nome"
+                     data-marca="@item.Marca?.Nome"
                      data-ano="@item.Ano"
                      data-chassis="@item.Chassis"
                      data-primeira-aparicao = "@item.PrimeiraAparicao"
@@ -221,7 +230,7 @@
                      data-unidades="@item.Unidades"
                      data-curiosidade="@item.Curiosidade"
                      data-pais="@item.Pais"
-                     data-motor="@item.Motor.Tipo"
+                     data-motor="@item.Motor?.Tipo"
                      >
                         <img class="rounded-3 w-100 shadow" src="@item.Imagem" alt="@item.Nome">
                         <div class="d-flex flex-column gap-2 itemNomeEPreco">

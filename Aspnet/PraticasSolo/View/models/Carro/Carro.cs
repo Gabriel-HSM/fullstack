@@ -1,3 +1,4 @@
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace View.models
@@ -5,7 +6,10 @@ namespace View.models
     public class Carro
     {
         public Guid Id { get; set; }
+        [Required(ErrorMessage = "O nome do carro não pode ser vazio.")]
+        [StringLength(100, MinimumLength =3, ErrorMessage = "O nome do carro deve ter entre 3 e 100 caracteres.")]
         public string Nome { get; set; } = null!;
+        [Required(ErrorMessage = "O preço do carro não pode ser vazio.")]
         [Column(TypeName = "decimal(18,2)")]
         public decimal Preco { get; set; }
         public int? MarcaId { get; set; }

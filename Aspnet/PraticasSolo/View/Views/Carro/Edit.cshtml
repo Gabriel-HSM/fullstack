@@ -90,7 +90,7 @@
                         </div>
                         <div class="col-4 shadow">
                             <label asp-for="Unidades" class="form-label">Unidades</label>
-                            <input asp-for="Unidades" class="form-control" />
+                            <input asp-for="Unidades" placeholder="0,00" type="text" class="form-control" />
                         </div>
                         <div class="col-4 shadow">
                             <label asp-for="Motor" class="form-label">Motor</label>
@@ -117,6 +117,7 @@
                             <input type="file" name="imagemArquivo" class="form-control" id="imagemInput" />
                         </div>
                         <button type="submit" class="btn btn-primary">Salvar</button>
+                        <a href="@Url.Action("Index", "Carro")" class="btn btn-secondary">Voltar</a>
                     </form>
                 </fieldset>
             </div>  
