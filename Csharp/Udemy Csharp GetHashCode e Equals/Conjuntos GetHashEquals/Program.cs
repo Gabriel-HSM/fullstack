@@ -32,7 +32,7 @@ removeWhere(predicate)
 
 
     //HashSet
-    HashSet<string> set = new HashSet<string>(); //set = ["TV", "Notebook", "Tablet"];
+    HashSet<string> set = new HashSet<string>(); //{"TV", "Notebook", "Tablet"}
 
     set.Add("TV");
     set.Add("Notebook");
@@ -54,7 +54,7 @@ removeWhere(predicate)
     c.UnionWith(b);
     PrintCollection(c);
 
-    //Intercessão
+    //Intercessão,  mantém os elementos que existem em ambos os conjuntos
     SortedSet<int> d = new SortedSet<int>(a);
     d.IntersectWith(d);
     PrintCollection(d);
