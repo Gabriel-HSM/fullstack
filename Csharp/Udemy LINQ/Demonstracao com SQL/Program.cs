@@ -35,34 +35,64 @@ class Program
             new Product(11, "Level", 70.0, c1)
         };
 
-        IEnumerable<Product> results1 = products.Where(p => p.Category.Tier == 1 && p.Price < 900.0);
-        Print("TIER 1 AND PRICE < 900:", results1);
+        // IEnumerable<Product> r1 = products.Where(p => p.Category.Tier == 1 && p.Price < 900.0);
+        var r1 = 
+            from p in products
+            where p.Category.Tier == 1 && p.Price < 900.0
+            select p;
+        Print("TIER 1 AND PRICE < 900:", r1);
 
-        var results2 = products.Where(p => p.Category.Name == "Tools").Select(p => p.Name);
-        Print("NAMES OF PRODUCT FROM TOOLS", results2);
+        //var r2 = products.Where(p => p.Category.Name == "Tools").Select(p => p.Name);
+        var r2 =
+            from p in products
+            where p.Category.Name == "Tools"
+            select p.Name;
+        Print("NAMES OF PRODUCT FROM TOOLS", r2);
 
         //Name no caractere 0, ou seja primeira letra
         //Ta ai o apelido do SQL, por ter nome parecido (category name foi necessário outro nome/apelido)
-        var result3 = products.Where(p => p.Name[0] == 'C').Select(p => new {p.Name, p.Price, CategoryName = p.Category.Name});
-        Print("NAMES STARTED WITH 'C' AND ANONYMOUS OBJECT", result3);
+
+        //var r3 = products.Where(p => p.Name[0] == 'C').Select(p => new {p.Name, p.Price, CategoryName = p.Category.Name});
+        var r3 = 
+            from p in products
+            where p.Name[0] == 'C'
+            select new {p.Name, p.Price,CategorName = p.Category.Name};
+        Print("NAMES STARTED WITH 'C' AND ANONYMOUS OBJECT", r3);
 
         //OrderBy ordena por uma regra
         //ThenBy depois de orderby
-        var result4 = products.Where(p => p.Category.Tier == 1).OrderBy(p => p.Price).ThenBy(p => p.Name);
-        Print("TIER 1 ORDERBY PRICE THE BY NAME", result4);
+
+        //var r4 = products.Where(p => p.Category.Tier == 1).OrderBy(p => p.Price).ThenBy(p => p.Name);
+        var r4 = 
+            from p in products
+            where p.Category.Tier == 1
+            orderby p.Name
+            orderby p.Price
+            select p;
+        Print("TIER 1 ORDERBY PRICE THE BY NAME", r4);
 
         //Pula os 2 primeiros e pega 4 elementos
-        var result5 = result4.Skip(2).Take(4);
-         Print("TIER 1 ORDERBY PRICE THE BY NAME SKIP 2 TAKE 4", result5);
+        //var r5 = r4.Skip(2).Take(4);
+        var r5 = 
+         (from p in r4
+         select p).Skip(2).Take(4);
+        Print("TIER 1 ORDERBY PRICE THE BY NAME SKIP 2 TAKE 4", r5);
 
          //Pegar os elementos, primeiro, ultimo e etc
          //Vai gerar excessão se for apenas o first puro
-         var r6 = products.FirstOrDefault();
-         Console.WriteLine("First  or defalt test 1: " + r6);
 
-         var r7 = products.Where(p => p.Price > 3000.0).FirstOrDefault();
-         Console.WriteLine("First or defalt test 2: " + r7);
-         Console.WriteLine();
+        //var r6 = products.FirstOrDefault();
+        //pode usar o products, mais simples
+        var r6 = (from p in products select p).FirstOrDefault();
+        Console.WriteLine("First  or defalt test 1: " + r6);
+
+        //var r7 = products.Where(p => p.Price > 3000.0).FirstOrDefault();
+        var r7 =
+            (from p in products
+            where p.Price > 3000.0
+            select p).FirstOrDefault();
+        Console.WriteLine("First or defalt test 2: " + r7);
+        Console.WriteLine();
 
         //Pode controlar se eu quero uma coleção ou um simples elemento.
         //Tirando o single or defalt vira coleção (mesmo retornando só um item)
@@ -103,7 +133,10 @@ class Program
 
 
         //Agrupamento
-        var r16 = products.GroupBy(p => p.Category);
+        //var r16 = products.GroupBy(p => p.Category);
+        var r16 = 
+            from p in products
+            group p by p.Category;
         foreach (IGrouping<Category, Product> group in r16)
         {
             Console.WriteLine("Category" + group.Key.Name + ": ");
